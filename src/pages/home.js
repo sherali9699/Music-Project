@@ -111,7 +111,7 @@ const Home = () => {
               <div className='globalHeadingWrap'>
                 <h2 className='globalHeading'>About</h2>
                 <p>Experience the fusion of culture and education at the Center for South Asian Music at Habib University. Our Music Room provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor. Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding.</p>
-                <Link className='globalBtn borderBtn' to="/about">Explore</Link>
+                <Link className='globalBtn borderBtn' to="/music/about/">Explore</Link>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ const Home = () => {
               <div className='globalHeadingWrap'>
                 <h2 className='globalHeading'>Academic Offerings</h2>
                 <p>Embark on a journey of musical exploration and academic inquiry with our diverse array of courses. From diving into the intricacies of South Asian musical genres to exploring the musical landscape elsewhere, our courses blend theory with practice to offer immersive learning experiences. Led by esteemed instructors and rooted in interdisciplinary approaches, our courses aim to cultivate a profound understanding and appreciation of music's cultural and historical significance.</p>
-                <Link className='globalBtn borderBtn' to="/academic-offerings">Explore</Link>
+                <Link className='globalBtn borderBtn' to="/music/academic-offerings/">Explore</Link>
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@ const Home = () => {
             <div className='col-lg-8'>
               <div className='globalHeadingWrap'>
                 <h2 className='globalHeading'>Khawaja Mashooqullah Music Room</h2>
-                <Link className='globalBtn borderBtn' to="/music-room">Explore</Link>
+                <Link className='globalBtn borderBtn' to='/music/music-room/'>Explore</Link>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ const Home = () => {
               <div className='globalHeadingWrap'>
                 <h2 className='globalHeading'>Events</h2>
                 <p>Take a glimpse into our annual events, ranging from soulful Khayal concerts to the melodies of Ghazal Kay Rang and captivating folk music programs. As a highlight, our Music Room orchestra culminates the academic year by serenading the graduating batch at their awards nights, creating moments of celebration and appreciation.</p>
-                <Link className='globalBtn borderBtn' to="/events">Explore</Link>
+                <Link className='globalBtn borderBtn' to="/music/events/">Explore</Link>
               </div>
             </div>
           </div>

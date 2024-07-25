@@ -15,14 +15,15 @@ import Islam from './pages/islamuddin';
 import Shehroz from './pages/shehroz';
 import Zohaib from './pages/zohaib';
 import Contact from './pages/contact';
-import Footer from './components/Footer'
-import './App.css'  
-
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop'; 
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop /> 
         <Header />
         <Routes>
           <Route path='/music/' element={<Home />} />
@@ -37,10 +38,10 @@ function App() {
           <Route path='/music/ustad-sajid-hussain/' element={<Sajid />} />
           <Route path='/music/shehroze-hussain-sitar-instructor/' element={<Shehroz />} />
           <Route path='/music/islam-uddin-mir/' element={<Islam />} />
-          <Route path='/music/zohaib-khursheed-hussain-tabla-instructor/' element={<Zohaib/>} />
+          <Route path='/music/zohaib-khursheed-hussain-tabla-instructor/' element={<Zohaib />} />
           <Route path='music/contact/' element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
