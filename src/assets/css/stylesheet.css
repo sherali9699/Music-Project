@@ -385,6 +385,16 @@ span {
   padding: 40px 0 0;
 }
 
+/* scroll to top button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 150px;
+  right: 40px;
+  z-index: 1000;
+}
+
+
+
 /* home page */
 .video-container {
   position: relative;
@@ -547,7 +557,7 @@ video {
   font-weight: 700;
 }
 
-.contact-common p a {
+.contact-common a{
   color: var(--secondary);
 }
 
@@ -560,10 +570,11 @@ video {
   margin-bottom: 4rem;
 }
 
-.contact-common p {
-  line-height: 2px;
-  margin-top: 1.4rem;
-  font-size: 25px;
+.contact-common a {
+  display: block;
+  line-height: 15px;
+  margin-top: 1rem;
+  font-size: 18px;
 }
 
 /* events inner */
@@ -595,6 +606,22 @@ video {
   top: 60%;
   left: 13%;
 }
+
+
+.gallery-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  padding: 20px; 
+}
+
+.gallery-container a {
+  display: inline-block;
+}
+
+
+
 
 
 /* Overlay for the modal */
@@ -679,7 +706,7 @@ video {
 
 /* footer */
 footer {
-  padding: 30px 0 1px;
+  padding: 15px 0 1px;
   margin: 2rem 0 0;
   background: rgba(235, 235, 235, 1);
   text-align: center;
@@ -691,11 +718,11 @@ footer ul {
 }
 
 footer ul li a {
-  font-size: 28px;
+  font-size: 24px;
   border: 2.5px solid rgba(119, 93, 43, 0.2);
   border-radius: 38px;
   display: block;
-  height: 70px;
+  height: 65px;
   width: 70px;
   display: flex;
   align-items: center;
@@ -765,10 +792,12 @@ footer ul li a:hover {
 
 .hero-prev-arrow {
   left: -100px;
+  bottom: -60px;
 }
 
 .hero-next-arrow {
   right: -100px;
+  bottom: -60px;
 }
 
 .hero-prev-arrow .fa-long-arrow-alt-left,

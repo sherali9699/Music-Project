@@ -17,6 +17,7 @@ import Zohaib from './pages/zohaib';
 import Contact from './pages/contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop'; 
+import ScrollToTopButton from './components/ScrollToTopBtn';
 import './App.css';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path='/music/zohaib-khursheed-hussain-tabla-instructor/' element={<Zohaib />} />
           <Route path='music/contact/' element={<Contact />} />
         </Routes>
+        <ScrollToTopButton /> 
         <Footer />
       </Router>
     </div>

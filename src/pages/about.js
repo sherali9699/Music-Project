@@ -26,7 +26,7 @@ const About = () => {
             <div className='col-lg-8'>
               <div className='globalHeadingWrap'>
                 <h2 className='globalHeading'>About</h2>
-                <p>Experience the fusion of culture and education at the Center for South Asian Music at Habib University. Our Music Room provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor. Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding.</p>
+                <p>The Center for South Asian Music which houses the Music Room and the South Asian Music Minor, seeks to engage students on multiple levels of consciousness, to create a deep symbiosis between various areas of learning and fields of inquiry. The Music Room as a space allows for an experiential musical learning, the South Asian Music Minor builds upon this musical foundation to serve as a vehicle for interdisciplinary learning, kinesthetic cultural experience, and for reclaiming important cultural space. </p>
               </div>
             </div>
           </div>

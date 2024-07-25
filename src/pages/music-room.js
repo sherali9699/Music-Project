@@ -32,18 +32,18 @@ const MusicRoom = () => {
                   Khuwaja Mashooqullah Music Room
                 </h2>
                 <p>
-                  Khwaja Mashooqullah Music Room was established through a
-                  generous donation from the Mashooqullah Family to support
-                  Habib University's musical initiatives. This space offers
-                  experiential musical education to students, staff, and faculty
-                  at Habib University. Featuring dedicated rooms for Sitar,
-                  Violin, Tabla, and Vocal lessons, the Music Room provides
-                  instruction to over a hundred community members under the
-                  guidance of skilled musical maestros. This facility is a
-                  testament to Habib's commitment to reviving forgotten
-                  histories and abandoned legacies, embracing the spirit of
-                  South Asia, and reintroducing the inhabitants of this region
-                  to their cultural and aesthetic heritage.
+                  Khwaja Mashooqullah Music Room came about as a manifestation
+                  of the generous donation accorded by the Mashooqullah Family
+                  to Habib University's musical endeavors. The space provides
+                  experiential musical learning to students, staff and faculty
+                  at Habib University. Comprising dedicated rooms for Sitar,
+                  Violin, Tabla and Vocal lessons, the Music Room hosts lessons
+                  for over a hundred community members under the guidance of
+                  musical maestros. The place stands as a testament to Habib's
+                  commitment of reviving forgotten histories and abandoned
+                  legacies, of imbibing the spirit of South Asia, and to duly
+                  (re)introduce the inhabitants of this landscape to their
+                  cultural and aesthetic inheritance.
                 </p>
               </div>
             </div>
@@ -83,7 +83,7 @@ const MusicRoom = () => {
                 </div>
               </div>
             </Link>
-            <Link to={'/music/islam-uddin-mir/'}>
+            <Link to={"/music/islam-uddin-mir/"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">

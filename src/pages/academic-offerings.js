@@ -85,7 +85,12 @@ function Academic_Main() {
     {
       title: "Music and Mathematics",
       content:
-          "This course introduces the rudiments of Western and South Asian musical theory, with a focus on the mathematics incorporated in their development and overall structure. It explores the properties of the twelve-tone scale, the historical evolution of tuning and temperament, the idea of combinational tones and consonance, and the physics behind the construction of musical instruments. Looking primarily at South Asian and Western musical genres, students are required to analyze the mathematics involved in music composition, for both melody and rhythm."
+          "This course introduces the rudiments of Western and South Asian musical theory, with a focus on the mathematics incorporated in their development and overall structure. It explores the properties of the twelve-tone scale, the historical evolution of tuning and temperament, the idea of combinational tones and consonance, and the physics behind the construction of musical instruments. Looking primarily at South Asian and Western musical genres, students are required to analyze the mathematics involved in music composition, for both melody and rhythm.",
+    },
+    {
+      title: "Rhythm & Rapport",
+      content:
+          "This course will traverse the deep and rich repertoire of tabla performance, its styles and lineages that emerged as a result of its expansion outwards from 18th Century Delhi into various parts of Northern India. Students will learn the basic syllables and beat cycles in tabla and slowly prepare to decipher and analyze the rhythmic discourse of the various gharanas of tabla through a unique mixture of theory, history and practice.",
     },
     {
       title: "Sound and Subjectivity: Listening to other",
@@ -95,7 +100,7 @@ function Academic_Main() {
     {
       title: "Hamari Meraas: History and Discourse of South Asian Music",
       content:
-        "A common perspective about South Asian “classical” music is that it’s a static form of music, innovated by Mughal patrons and only accessible to a particular class. A lot of these perceptions stem from the modern politicized vision of history as well as the discourse of this music’s Orientalist other— Western classical music. This is the first assumption we will unravel; in the context of South Asian music, what does “classical” actually mean? What influenced aesthetic principles? Who were the early practitioners? Why did this music gain popularity in the courtly setting? Which milieu did it thrive and flourish in? How does it reflect various socio-historic contexts? How does modern day nationalism shape discourse on music?Not only can this historical and critical inquiry inform us about the musical system, but the musical system itself can challenge our ways of understanding history, cultural practices and societal interactions.",
+        "A common perspective about South Asian “classical” music is that it's a static form of music, innovated by Mughal patrons and only accessible to a particular class. A lot of these perceptions stem from the modern politicized vision of history as well as the discourse of this music’s Orientalist other— Western classical music. This is the first assumption we will unravel; in the context of South Asian music, what does “classical” actually mean? What influenced aesthetic principles? Who were the early practitioners? Why did this music gain popularity in the courtly setting? Which milieu did it thrive and flourish in? How does it reflect various socio-historic contexts? How does modern day nationalism shape discourse on music?Not only can this historical and critical inquiry inform us about the musical system, but the musical system itself can challenge our ways of understanding history, cultural practices and societal interactions.",
     },
     {
       title: "Musicking: Antropology of music",
@@ -116,6 +121,11 @@ function Academic_Main() {
       title: "Thumri ki kahani: Romance in Raag Form",
       content:
         "Thumri is one of the popular styles of singing in South Asia. It is described as a dance song in the 17th Century treatises like Raag Darpan and Tohfat-ul-Hind. With the passage of time, the dance element faded and now it is mostly presented by way of vocalization. Thumri was patronized by Nawab Wajid Ali Shah, the King of Lucknow who ruled the state of Avadh from 1847 to 1856. Technically speaking, this genre is a pleasant blend of our classical and semi-classical music. Unlike the classical forms of Dhrupad and Khayal, the Thumris are glorified with short amatory texts, mostly found in Brij Basha and its allied dialects like Avadhi, Bhojpuri etc. It has gained popularity due to excessive use of singing techniques like Khataka, Murki and Bol Bant. Here importance is given to eloquence rather than purity of a Raag. That is why Thumri is also known for its variations and experimentation with the structure of Raags. These days a Thumri is usually performed as a last item of the Khayal concert. Since not many Thumri singers are alive today, it is feared that this genre may become scarce soon. Before Thumri becomes completely non-existent, we need to make an endeavor for its revival by educating the present generation.",
+    },
+    {
+      title: "Khayal Gayeki: The Aesthetics and Evolution of a Vocal Form",
+      content:
+        "This course will introduce students to some basic history as well as foundational theory and praxis. We will work with the contemporary theoretical framework of Raga’s categorized into ten primary Thaats (developed by Bhatkhande). Students will be familiarized with the architecture of a Khayal performance, including alap, bandish and taans as well as to the various forms of ornamentation. We will also engage with various stylistic lineages and identify ways in which these musicians employ various ornamental techniques to create their characteristic sound and emotional affect. A comparative study of different aesthetic ideals and genres such as Thumri, Ghazal and film songs will further orient students in their exploration of Khayal. Ultimately, the primary focus of the course is on the praxis of Khayal, through learning multiple Raga’s and their characteristic movements, phrases and ornamentations.",
     },
   ];
 
