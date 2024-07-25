@@ -25,20 +25,20 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/academic-offerings' element={<AcademicOfferings />} />
-          <Route path='/music-room' element={<MusicRoom />} />
-          <Route path='/events' element={<Events />} />
+          <Route path='/music/' element={<Home />} />
+          <Route path='music/about/' element={<About />} />
+          <Route path='music/academic-offerings/' element={<AcademicOfferings />} />
+          <Route path='music/music-room/' element={<MusicRoom />} />
+          <Route path='music/events/' element={<Events />} />
           <Route path='/events-inner' element={<Events_Inner />} />
-          <Route path='/students-works' element={<StudentWorks />} />
-          <Route path='/intezaar-hussain' element={<Intizaar />} />
-          <Route path='/khurshid-hussain' element={<Khurshid />} />
-          <Route path='/sajid-hussain' element={<Sajid />} />
-          <Route path='/shehroz-hussain' element={<Shehroz />} />
-          <Route path='/islam-meer' element={<Islam />} />
-          <Route path='/zohaib-hussain' element={<Zohaib/>} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='music/student-works/' element={<StudentWorks />} />
+          <Route path='/music/intezar-hussain-vocal-instructor/' element={<Intizaar />} />
+          <Route path='/music/ustad-khursheed/' element={<Khurshid />} />
+          <Route path='/music/ustad-sajid-hussain/' element={<Sajid />} />
+          <Route path='/music/shehroze-hussain-sitar-instructor/' element={<Shehroz />} />
+          <Route path='/music/islam-uddin-mir/' element={<Islam />} />
+          <Route path='/music/zohaib-khursheed-hussain-tabla-instructor/' element={<Zohaib/>} />
+          <Route path='music/contact/' element={<Contact />} />
         </Routes>
         <Footer/>
       </Router>

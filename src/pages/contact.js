@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 //style sheets
 import '../assets/css/stylesheet.css'
@@ -8,6 +9,10 @@ import '../assets/css/stylesheet.css'
 const Contact = () => {
   return (
     <>
+      <Helmet>
+        <title>Contact - Center for South Asian Music</title>
+      </Helmet>
+
       <section className='AcaOffSec padSec'>
         <div className="container contact-page">
           <h2 className='globalHeading'>Reach Out to Us</h2>

@@ -1,6 +1,7 @@
 // Import React and necessary components and styles
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import '../assets/css/stylesheet.css'; // Import general stylesheet
 import VideoPauseHero from '../components/VideoPauseHero'; // Import VideoPauseHero component
 import Slider from 'react-slick';
@@ -95,6 +96,10 @@ const Home = () => {
 
   return (
     <div className="home">
+      <Helmet>
+        <title>Center fot South Asian Music - Center for South Asian Music</title>
+      </Helmet>
+
       <VideoPauseHero /> 
       {/* Render the VideoPauseHero component */}
 

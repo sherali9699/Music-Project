@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
+
 import "../assets/css/stylesheet.css";
 
 // Import images
@@ -9,6 +11,10 @@ import eventImg3 from "../assets/images/events/event-card-3.webp";
 const Events = () => {
   return (
     <>
+      <Helmet>
+        <title>Events - Center for South Asian Music</title>
+      </Helmet>
+
       <span className='innerPageBlock'></span>
       <section className="AcaOffSec padSec">
         <div className="container">

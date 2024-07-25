@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 
 //css
@@ -10,12 +11,15 @@ import img from '../assets/images/instructors/intzaar.webp';
 function Intizaar() {
   return (
     <>
+          <Helmet>
+        <title>Intezar Hussain - Center for South Asian Music</title>
+      </Helmet>
     <span className='innerPageBlock'></span>
     <section className="AcaOffSec padSec">
       <div className="container instructors">
         <div className="d-flex justify-content-center">
           <div className="instructor-head">
-            <h1 className="globalHeading">Intizaar Hussain</h1>
+            <h1 className="globalHeading">Intezar Hussain</h1>
             <h3>(Vocal instructor)</h3>
           </div>
         </div>

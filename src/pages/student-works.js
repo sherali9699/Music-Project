@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
+
 import "..//assets/css/stylesheet.css";
 
 //images
@@ -14,6 +16,10 @@ import im8 from "..//assets/images/students-work/students-work8.webp";
 const StudentWorks = () => {
   return (
     <>
+      <Helmet>
+        <title>Student Works - Center for South Asian Music</title>
+      </Helmet>
+
     <span className='innerPageBlock'></span>
     <section className='mrSec padSec'>
     <div className='container'>

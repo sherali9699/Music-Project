@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import '../assets/css/stylesheet.css';
 
@@ -14,6 +15,10 @@ import abtImg6 from '../assets/images/about/about-pic-2.webp'
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About Us - Center for South Asian Music</title>
+      </Helmet>
+
     <span className='innerPageBlock'></span>
       <section className='abtSec padSec'>
         <div className='container'>

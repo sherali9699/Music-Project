@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import { Helmet } from 'react-helmet';
+
 import '../assets/css/stylesheet.css';
 
 //importing Tabs
@@ -13,6 +15,9 @@ import img2 from '..//assets/images/acaOffering/acaOff-3.webp';
 const AcademicOfferings = () => {
   return (
     <>
+      <Helmet>
+        <title>ACADEMIC OFFERINGS - Center for South Asian Music</title>
+      </Helmet>
 
     {/* acadmeic off sec */}
     <Academic_Main/>

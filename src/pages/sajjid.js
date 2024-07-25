@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet';
 
 //css
 import "../assets/css/stylesheet.css";
@@ -10,6 +10,9 @@ import img from '../assets/images/instructors/sajjid.webp';
 function Sajid() {
   return (
     <>
+          <Helmet>
+        <title>Ustad Sajid Hussain - Center for South Asian Music</title>
+      </Helmet>
     <span className='innerPageBlock'></span>
     <section className="AcaOffSec padSec">
       <div className="container instructors">
