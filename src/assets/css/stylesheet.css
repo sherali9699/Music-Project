@@ -549,8 +549,8 @@ video {
 .academic-common h3 {
   font-family: var(--heading-family);
   color: var(--primary);
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
   display: inline-block;
   margin-bottom: 0;
 }
@@ -569,6 +569,7 @@ video {
   cursor: pointer;
   font-size: 26px;
   font-weight: 700;
+  line-height: 20px;
 }
 
 #tab {
@@ -625,48 +626,50 @@ video {
 
 .contact-common a {
   display: block;
-  line-height: 15px;
-  margin-top: 1rem;
-  font-size: 18px;
+  /* line-height: 15px; */
+  /* margin-top: 1rem; */
+  /* font-size: 18px; */
 }
 
 /* events inner */
 .event-inner-header {
   position: relative;
+  min-height: 370px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2rem;
 }
+.bannerHead .globalHeading {color: #fff !important;margin-bottom: 10px;}
 
-.event-inner-header-content span {
-  display: block;
-  color: #fff;
-  font-size: 35px;
-  font-family: "Philosopher";
-  font-weight: 700;
+span.dateonBanner {
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--heading-family);
+    font-weight: 700;
 }
-
-.event-inner-header-content p {
-  font-size: 26px;
-  color: #ffff;
-  font-weight: 500;
-}
-
-.event-inner-head-pic {
-  width: 100%;
-  height: auto;
-}
-
-.event-inner-header-content {
+.event-inner-header:before {
+  content: "";
   position: absolute;
-  top: 60%;
-  left: 13%;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #000;
+  background: linear-gradient(0deg, #000 0%, rgba(255, 255, 255, 0) 35%);
 }
+.bannerHead {
+  position: relative;
+  z-index: 2;
+}
+
 
 
 .gallery-container {
-  display: flex;
-  justify-content: center; 
-  gap: 20px; 
-  flex-wrap: wrap; 
-  padding: 20px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0 0 0;
 }
 
 .gallery-container a {
@@ -868,15 +871,5 @@ footer ul li a:hover {
     flex-direction: column; 
   }
 
-  /* event inner page */
-  .event-inner-header-content span {
-    font-size: 20px;
-  }
-  .event-inner-header-content p {
-    font-size: 12px;
-  }
-  .event-inner-header-content {
-    top: 50%;
-    left: 25%;
-  }
+
 }
