@@ -19,6 +19,9 @@ const AcademicOfferings = () => {
         <title>ACADEMIC OFFERINGS - Center for South Asian Music</title>
       </Helmet>
 
+    <span className='innerPageBlock'></span>
+
+
     {/* acadmeic off sec */}
     <Academic_Main/>
 
@@ -141,8 +144,9 @@ function Academic_Main() {
   };
 
   return (
+    
     <section className='AcaOffSec padSec'>
-      <div className="container" style={{ marginTop: "7rem" }}>
+      <div className="container">
         <div className="d-flex justify-content-center mb-5">
           <h2 className='globalHeading'>Academic Offerings</h2>
         </div>
@@ -161,6 +165,7 @@ function Academic_Main() {
         </div>
       </div>
       </section>
+      
   );
 }
 

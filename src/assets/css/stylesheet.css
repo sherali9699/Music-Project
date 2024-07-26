@@ -385,13 +385,66 @@ span {
   padding: 40px 0 0;
 }
 
+
 /* scroll to top button */
 .scroll-to-top {
   position: fixed;
-  bottom: 150px;
-  right: 40px;
+  bottom: 100px;
+  right: 50px;
   z-index: 1000;
+  transform: rotateY(90);
 }
+
+#arrowAnim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  border: 10px solid;
+  border-color: var(--primary) transparent transparent var(--primary);
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+
+.arrowSliding {
+  position: absolute;
+  -webkit-animation: slide 4s linear infinite; 
+          animation: slide 4s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+.delay2 {
+  -webkit-animation-delay: 2s; 
+    animation-delay: 2s;
+}
+.delay3 {
+  -webkit-animation-delay: 3s; 
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes slide {
+    0% { opacity:0; transform: translateY(4rem); }	
+   20% { opacity:1; transform: translateY(3rem); }	
+   80% { opacity:1; transform: translateY(-2rem); }	
+  100% { opacity:0; transform: translateY(-1rem); }	
+}
+@keyframes slide {
+    0% { opacity:0; transform: translateY(4rem); }	
+   20% { opacity:1; transform: translateY(3rem); }	
+   80% { opacity:1; transform: translateY(-2rem); }	
+  100% { opacity:0; transform: translateY(-1rem); }	
+}
+
+
+
 
 
 
@@ -497,7 +550,7 @@ video {
   font-family: var(--heading-family);
   color: var(--primary);
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
   margin-bottom: 0;
 }
@@ -514,8 +567,8 @@ video {
 
 #spec {
   cursor: pointer;
-  font-size: 40px;
-  font-size: 24px;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 #tab {
@@ -718,12 +771,12 @@ footer ul {
 }
 
 footer ul li a {
-  font-size: 24px;
+  font-size: 22px;
   border: 2.5px solid rgba(119, 93, 43, 0.2);
   border-radius: 38px;
   display: block;
-  height: 65px;
-  width: 70px;
+  height: 55px;
+  width: 55px;
   display: flex;
   align-items: center;
   justify-content: center;

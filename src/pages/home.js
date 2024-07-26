@@ -115,7 +115,7 @@ const Home = () => {
                 <p>
                 Experience the fusion of culture and education at the Center for South Asian Music at Habib University. Our Music Room provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor. Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding.
                 </p>
-                <Link className="globalBtn borderBtn" to="/music/about/">
+                <Link className="globalBtn borderBtn" to="/about">
                   Explore
                 </Link>
               </div>
@@ -147,7 +147,7 @@ const Home = () => {
                 </p>
                 <Link
                   className="globalBtn borderBtn"
-                  to="/music/academic-offerings/"
+                  to="/academic-offerings"
                 >
                   Explore
                 </Link>
@@ -180,7 +180,7 @@ const Home = () => {
                 <h2 className="globalHeading">
                   Khawaja Mashooqullah Music Room
                 </h2>
-                <Link className="globalBtn borderBtn" to="/music/music-room/">
+                <Link className="globalBtn borderBtn" to="/music-room">
                   Explore
                 </Link>
               </div>
@@ -210,7 +210,7 @@ const Home = () => {
                 <p>
                 Take a glimpse into our annual events, ranging from soulful Khayal concerts to the melodies of Ghazal Kay Rang and captivating folk music programs. As a highlight, our Music Room orchestra culminates the academic year by serenading the graduating batch at their awards nights, creating moments of celebration and appreciation.
                 </p>
-                <Link className="globalBtn borderBtn" to="/music/events/">
+                <Link className="globalBtn borderBtn" to="/events">
                   Explore
                 </Link>
               </div>

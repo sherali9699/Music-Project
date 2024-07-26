@@ -70,7 +70,7 @@ const MusicRoom = () => {
             </div>
           </div>
           <ul className="abtImagesWrap">
-            <Link to={"/music/intezar-hussain-vocal-instructor/"}>
+            <Link to={"/intezar-hussain-vocal-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -83,7 +83,7 @@ const MusicRoom = () => {
                 </div>
               </div>
             </Link>
-            <Link to={"/music/islam-uddin-mir/"}>
+            <Link to={"/islam-uddin-mir"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -96,7 +96,7 @@ const MusicRoom = () => {
                 </div>
               </div>
             </Link>
-            <Link to={"/music/shehroze-hussain-sitar-instructor/"}>
+            <Link to={"/shehroze-hussain-sitar-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -109,7 +109,7 @@ const MusicRoom = () => {
                 </div>
               </div>
             </Link>
-            <Link to={"/music/zohaib-khursheed-hussain-tabla-instructor/"}>
+            <Link to={"/zohaib-khursheed-hussain-tabla-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -137,7 +137,7 @@ const MusicRoom = () => {
             </div>
           </div>
           <ul className="abtImagesWrap">
-            <Link to={"/music/ustad-khursheed/"}>
+            <Link to={"/ustad-khursheed"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -150,7 +150,7 @@ const MusicRoom = () => {
                 </div>
               </div>
             </Link>
-            <Link to={"/music/ustad-sajid-hussain/"}>
+            <Link to={"/ustad-sajid-hussain"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">

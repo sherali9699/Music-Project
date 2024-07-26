@@ -27,20 +27,20 @@ function App() {
         <ScrollToTop /> 
         <Header />
         <Routes>
-          <Route path='/music/' element={<Home />} />
-          <Route path='music/about/' element={<About />} />
-          <Route path='music/academic-offerings/' element={<AcademicOfferings />} />
-          <Route path='music/music-room/' element={<MusicRoom />} />
-          <Route path='music/events/' element={<Events />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/academic-offerings' element={<AcademicOfferings />} />
+          <Route path='/music-room' element={<MusicRoom />} />
+          <Route path='/events' element={<Events />} />
           <Route path='/events-inner' element={<Events_Inner />} />
-          <Route path='music/student-works/' element={<StudentWorks />} />
-          <Route path='/music/intezar-hussain-vocal-instructor/' element={<Intizaar />} />
-          <Route path='/music/ustad-khursheed/' element={<Khurshid />} />
-          <Route path='/music/ustad-sajid-hussain/' element={<Sajid />} />
-          <Route path='/music/shehroze-hussain-sitar-instructor/' element={<Shehroz />} />
-          <Route path='/music/islam-uddin-mir/' element={<Islam />} />
-          <Route path='/music/zohaib-khursheed-hussain-tabla-instructor/' element={<Zohaib />} />
-          <Route path='music/contact/' element={<Contact />} />
+          <Route path='/student-works' element={<StudentWorks />} />
+          <Route path='/intezar-hussain-vocal-instructor' element={<Intizaar />} />
+          <Route path='/ustad-khursheed' element={<Khurshid />} />
+          <Route path='/ustad-sajid-hussain' element={<Sajid />} />
+          <Route path='/shehroze-hussain-sitar-instructor' element={<Shehroz />} />
+          <Route path='/islam-uddin-mir' element={<Islam />} />
+          <Route path='/zohaib-khursheed-hussain-tabla-instructor' element={<Zohaib />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <ScrollToTopButton /> 
         <Footer />

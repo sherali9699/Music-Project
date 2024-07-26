@@ -27,7 +27,7 @@ const Header = () => {
           </div>
           <div className="row">
             <div className="col-md-2 position-relative">
-              <Link to="/music/" className="logo logobefore">
+              <Link to="/" className="logo logobefore">
                 <img src={Mainlogo} alt="Main Logo"  />
               </Link>
             </div>
@@ -35,25 +35,25 @@ const Header = () => {
               <div className={`menuWrap ${isOpen ? 'open' : ''}`}>
                 <ul className="menu">
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/music/">Home</Link>
+                    <Link className="nav-link text-white" to="/">Home</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="music/about/">About Us</Link>
+                    <Link className="nav-link text-white" to="/about">About Us</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="music/academic-offerings/">Academic Offerings</Link>
+                    <Link className="nav-link text-white" to="/academic-offerings">Academic Offerings</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="music/music-room/">Music Room</Link>
+                    <Link className="nav-link text-white" to="/music-room">Music Room</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="music/events/">Events</Link>
+                    <Link className="nav-link text-white" to="/events">Events</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="music/student-works/">Students Work</Link>
+                    <Link className="nav-link text-white" to="/student-works">Students Work</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="music/contact/">Contact Us</Link>
+                    <Link className="nav-link text-white" to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
