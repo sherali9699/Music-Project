@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import '../assets/css/stylesheet.css';
+// import '../assets/css/stylesheet.css';
 
 // Import images
 import abtImg1 from '../assets/images/about/home-abt-1.webp';
@@ -49,8 +49,10 @@ const About = () => {
               <h3>Yosuf Kerai</h3>
             </div>
             <div className="row about-mess-mini">
-              <div className="col-2 mess-semi-colon-1">
+              <div className="col-2 ">
+                <div className='mess-semi-colon-1'>
                 <img src={abtImg6} alt="image" className="img-fluid" />
+                </div>
               </div>
               <div className="col-8">
                 <p >
@@ -67,8 +69,10 @@ const About = () => {
                   integral to South Asian aesthetics and identity.”
                 </p>
               </div>
-              <div className="col-2 mess-semi-colon-2">
+              <div className="col-2 ">
+                <div className='mess-semi-colon-2'>
                 <img src={abtimg5} alt="image" className="img-fluid" />
+                </div>
               </div>
             </div>
             </div>

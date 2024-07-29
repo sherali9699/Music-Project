@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 
-import "../assets/css/stylesheet.css";
+// import "../assets/css/stylesheet.css";
 
 // Import images
 import eventImg1 from "../assets/images/events/event-card-1.webp";
@@ -22,7 +22,7 @@ const Events = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading">Events</h2>
+                <h2 className="globalHeading two">Events</h2>
               </div>
             </div>
           </div>

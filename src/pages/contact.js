@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 //style sheets
-import '../assets/css/stylesheet.css'
+// import '../assets/css/stylesheet.css'
 
 
 

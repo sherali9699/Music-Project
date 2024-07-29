@@ -2,7 +2,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import "../assets/css/stylesheet.css"; // Import general stylesheet
+// import "../assets/css/stylesheet.css"; // Import general stylesheet
+// import '../assets/css/responsive.css';
 import VideoPauseHero from "../components/VideoPauseHero"; // Import VideoPauseHero component
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

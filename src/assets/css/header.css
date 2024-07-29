@@ -86,14 +86,6 @@
   display: block;
 }
 
-@media(max-width:425px){
-  .logo img{
-    left: 20px;
-    max-width: 75%;
-    height: 130px;
-    z-index: 2;
-  }
-}
 
 @media (max-width: 991px) {
   .main-header {
@@ -122,6 +114,7 @@
   .menuWrap.open {
     right: -50%;
     padding-left: 5%;
+    z-index: 3;
   }
 
   .menu {

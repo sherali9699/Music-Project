@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import Fancybox from "../components/FancyBox";
 
 // CSS
-import "../assets/css/stylesheet.css";
+// import "../assets/css/stylesheet.css";
 
 // Images
 import banner from "../assets/images/inner-event/inner-event-banner.webp";

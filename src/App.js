@@ -18,7 +18,11 @@ import Contact from './pages/contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop'; 
 import ScrollToTopButton from './components/ScrollToTopBtn';
+
 import './App.css';
+import './assets/css/stylesheet.css'
+import './assets/css/responsive.css'
+
 
 function App() {
   return (

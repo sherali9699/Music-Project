@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 //css
-import "../assets/css/stylesheet.css";
+// import "../assets/css/stylesheet.css";
 
 //image
 import img from '../assets/images/instructors/islamuddin.webp';

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Helmet } from 'react-helmet';
 
-import '../assets/css/stylesheet.css';
+// import '../assets/css/stylesheet.css';
 
 //importing Tabs
 import Tab from '../components/AcaoffTabs'
