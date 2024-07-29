@@ -5,9 +5,16 @@ import '../assets/css/header.css';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState('');
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleLinkClick = (path) => {
+    setActiveLink(path);
+    setIsOpen(false); // Optional: close the menu on link click
+    console.log(`Active link set to: ${path}`);
   };
 
   return (
@@ -28,32 +35,74 @@ const Header = () => {
           <div className="row">
             <div className="col-md-2 position-relative">
               <Link to="/" className="logo logobefore">
-                <img src={Mainlogo} alt="Main Logo"  />
+                <img src={Mainlogo} alt="Main Logo" />
               </Link>
             </div>
             <div className="col-md-10 text-right">
               <div className={`menuWrap ${isOpen ? 'open' : ''}`}>
                 <ul className="menu">
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/">Home</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/' ? 'active' : ''}`} 
+                      to="/" 
+                      onClick={() => handleLinkClick('/')}
+                    >
+                      Home
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/about">About Us</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/about' ? 'active' : ''}`} 
+                      to="/about" 
+                      onClick={() => handleLinkClick('/about')}
+                    >
+                      About Us
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/academic-offerings">Academic Offerings</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/academic-offerings' ? 'active' : ''}`} 
+                      to="/academic-offerings" 
+                      onClick={() => handleLinkClick('/academic-offerings')}
+                    >
+                      Academic Offerings
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/music-room">Music Room</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/music-room' ? 'active' : ''}`} 
+                      to="/music-room" 
+                      onClick={() => handleLinkClick('/music-room')}
+                    >
+                      Music Room
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/events">Events</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/events' ? 'active' : ''}`} 
+                      to="/events" 
+                      onClick={() => handleLinkClick('/events')}
+                    >
+                      Events
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/student-works">Students Work</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/student-works' ? 'active' : ''}`} 
+                      to="/student-works" 
+                      onClick={() => handleLinkClick('/student-works')}
+                    >
+                      Students Work
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link text-white" to="/contact">Contact Us</Link>
+                    <Link 
+                      className={`nav-link text-white ${activeLink === '/contact' ? 'active' : ''}`} 
+                      to="/contact" 
+                      onClick={() => handleLinkClick('/contact')}
+                    >
+                      Contact Us
+                    </Link>
                   </li>
                 </ul>
               </div>

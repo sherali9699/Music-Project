@@ -3,7 +3,7 @@
     display: inline-block;
     width: 100%; /* Adjust width as needed */
     height: 532px; /* Adjust height as needed */
-    background-image: url('../images/video-thumbnail.png'); /* Background image */
+    background-image: url('../images/video-thumbnail.webp'); /* Background image */
     background-size: cover; /* Cover the container */
     background-position: center; /* Center the background image */
 }

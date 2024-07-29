@@ -528,13 +528,22 @@ video {
   font-style: italic;
 }
 
-.mess-semi-colon-1 {
-margin-left: 2rem;}
-
-.mess-semi-colon-2 {
-  margin-right: 2rem;
+.colons {
+  margin: 0;
+  position: absolute;
 }
 
+.mess-semi-colon-1 {
+  left: 63px;
+  bottom: 485px;
+  bottom: auto;
+  top: 167px;
+}
+.mess-semi-colon-2 {
+  left: 605px;
+  left: auto;
+  right: 53px;
+}
 /* academic sec */
 .academic-common {
   margin-bottom: 1.5rem;

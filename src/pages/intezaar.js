@@ -28,8 +28,8 @@ function Intizaar() {
             <img src={img} alt="Intizaar" class="image-fluid" />
           </div>
         </div>
-        <div className="row">
-          <div className="col-9 mx-auto">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 ">
             <div className="instructor-intro">
               <p>
                 Intezar Hussain was born in 1980 to a musical family; his

@@ -71,6 +71,12 @@
   font-family: 'Philosopher';
 }
 
+.menu li a.active {
+  text-decoration: underline;
+  text-decoration-color: white; /* Set underline color to white */
+}
+
+
 .overlay {
   display: none;
   position: fixed;

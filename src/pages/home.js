@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 // import "../assets/css/stylesheet.css"; // Import general stylesheet
 // import '../assets/css/responsive.css';
-import VideoPauseHero from "../components/VideoPauseHero"; // Import VideoPauseHero component
+import VideoPauseHero from "../components/VideoPauseHero"; // Import VideoPauseHero componen
+import VideoPopup from "../components/VideoPopup";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -103,14 +104,15 @@ const Home = () => {
         </title>
       </Helmet>
 
-      <VideoPauseHero />
+      
+      <VideoPopup/>
       {/* Render the VideoPauseHero component */}
 
       {/* About Section */}
       <section className="abtSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-xl-8 col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">About</h2>
                 <p>
@@ -140,7 +142,7 @@ const Home = () => {
       <section className="AcaOffSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-xl-8 col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">Academic Offerings</h2>
                 <p>
@@ -176,7 +178,7 @@ const Home = () => {
       <section className="mrSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-xl-8 col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">
                   Khawaja Mashooqullah Music Room
@@ -205,7 +207,7 @@ const Home = () => {
       <section className="eventSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-xl-8 col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">Events</h2>
                 <p>

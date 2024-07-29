@@ -17,7 +17,7 @@ const Events = () => {
       </Helmet>
 
       <span className='innerPageBlock'></span>
-      <section className="AcaOffSec padSec">
+      <section className="eventsSec padSec">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">

@@ -46,7 +46,7 @@ function App() {
           <Route path='/zohaib-khursheed-hussain-tabla-instructor' element={<Zohaib />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        <ScrollToTopButton /> 
+        {/* <ScrollToTopButton />  */}
         <Footer />
       </Router>
     </div>

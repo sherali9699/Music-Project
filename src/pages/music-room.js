@@ -69,7 +69,7 @@ const MusicRoom = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap">
+          <ul className="abtImagesWrap mr">
             <Link to={"/intezar-hussain-vocal-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
