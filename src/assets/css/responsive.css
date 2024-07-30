@@ -94,11 +94,12 @@
 /* Media query for max-width 767px */
 @media (max-width: 767px) {
   .globalHeading {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 32px;
   }
 
-  p {
-    font-size: 15px;
+  p , a{
+    font-size: 14px;
   }
 
   .overImgText h3 {
@@ -127,19 +128,6 @@
     max-height: 150px;
   }
 
-  /* about */
-  /* .mess-semi-colon-1 {
-    margin-left: 1rem;
-  }
-
-  .mess-semi-colon-2 {
-    margin-right: 1rem;
-  }
-
-  .about-mess-head h3 {
-    font-size: 28px;
-  } */
-
   /* contact */
   .contact-common h3 {
     font-size: 22px;
@@ -147,7 +135,7 @@
 
   /* academic off */
   .academic-common h3 {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   .poster-container {
@@ -169,9 +157,11 @@
   .overImgText {
     padding: 20x;
   }
+  .colons img{max-width: 50%;}
 
   .about-mess-mini {
-    padding: 3rem 3rem 0;
+    padding: 0 2rem;
+    position: relative;
   }
 
   .about-mess-head h3 {
@@ -179,11 +169,13 @@
   }
 
   .mess-semi-colon-1 {
-    left: 10px;
+    left: -20px;
+    top: -5px;
   }
 
   .mess-semi-colon-2 {
     right: 5px;
+        bottom: 100px;
   }
 
   .about-keraiPic img {
@@ -201,11 +193,11 @@
   }
 
   footer p a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   footer p {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .abtImagesWrap.mr {
