@@ -11,7 +11,7 @@ const Contact = () => {
         <title>Contact - Center for South Asian Music</title>
       </Helmet>
 
-      <section className="AcaOffSec padSec">
+      <section className="AcaOffSec contact padSec">
         <div className="container">
           <div className="contact-page">
             <h2 className="globalHeading">Reach Out to Us</h2>

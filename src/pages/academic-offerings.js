@@ -147,7 +147,7 @@ function Academic_Main() {
     
     <section className='AcaOffSec padSec'>
       <div className="container">
-        <div className="d-flex justify-content-center mb-5">
+        <div className="d-flex justify-content-center mb-3">
           <h2 className='globalHeading'>Academic Offerings</h2>
         </div>
         <div className="row">
