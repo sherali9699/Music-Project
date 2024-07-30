@@ -10,11 +10,11 @@ const Contact = () => {
       <Helmet>
         <title>Contact - Center for South Asian Music</title>
       </Helmet>
-
-      <section className="AcaOffSec contact padSec">
+      <span className='innerPageBlock'></span>
+      <section className="AcaOffSec padSec">
         <div className="container">
           <div className="contact-page">
-            <h2 className="globalHeading">Reach Out to Us</h2>
+            <h2 className="globalHeading contactpage">Reach Out to Us</h2>
             <div className="row justify-content-center">
               <div className="col-md-9 col-lg-10">
                 <div className="contact-common ">

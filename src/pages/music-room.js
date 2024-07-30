@@ -65,7 +65,7 @@ const MusicRoom = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading">Teaching Community</h2>
+                <h2 className="globalHeading two">Teaching Community</h2>
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@ const MusicRoom = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading">Remebring the Great Ustads</h2>
+                <h2 className="globalHeading two">Remebring the Great Ustads</h2>
               </div>
             </div>
           </div>

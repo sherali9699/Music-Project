@@ -28,8 +28,8 @@ function Islam() {
             <img src={img} alt="Intizaar" class="image-fluid" />
           </div>
         </div>
-        <div className="row">
-          <div className="col-9 mx-auto">
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
             <div className="instructor-intro">
             <p>His initial instruction in music came from his brother-in-law, Ustad Nathu Khan, from whom he learned to play the harmonium. His knowledge of classical music was broadened by his father, Ustad Noor Khan, an established sarangi player for Radio Pakistan Karachi. Alongside, he was taught the violin by his elder brother, Abdul Shakoor. From 1969 to 1979, Islamuddin Meer served as a violinist for Radio Pakistan Karachi and for the Pakistani film industry. He subsequently had the opportunity to perform abroad as a violinist and ghazal singer. For 24 years he travelled back and forth, and during this time, maintained his position as composer for the audio company, Sonic. Since 2004 he has been in Pakistan, performing for television. In his extensive musical career, he has worked with prestigious musicians such as Nazar Hussain, Ustad Umrao Bundo Khan, Ustad Hamid Hussain, Ustad Kabir Khan, and Ustad Ghulam Mohiuddin Khan.</p>
 

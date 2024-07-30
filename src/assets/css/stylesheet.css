@@ -382,7 +382,7 @@ span {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   justify-content: center;
-  padding: 25px 0 0;
+  padding: 15px 0 0;
 }
 
 
@@ -625,7 +625,6 @@ video {
 
 .contact-page {
   text-align: center;
-  margin-top: 7rem;
 }
 
 .contact-page h2 {

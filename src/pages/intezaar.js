@@ -20,7 +20,7 @@ function Intizaar() {
         <div className="d-flex justify-content-center">
           <div className="instructor-head">
             <h1 className="globalHeading">Intezar Hussain</h1>
-            <h3>(Vocal instructor)</h3>
+            <h3>(Vocal Instructor)</h3>
           </div>
         </div>
         <div className="d-flex justify-content-center">

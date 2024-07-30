@@ -98,7 +98,12 @@
     line-height: 32px;
   }
 
-  p , a{
+  .globalHeading.two {
+    font-size: 26px;
+  }
+
+  p,
+  a {
     font-size: 14px;
   }
 
@@ -130,13 +135,24 @@
 
   /* contact */
   .contact-common h3 {
-    font-size: 22px;
+    font-size: 17px;
   }
 
   /* academic off */
   .academic-common h3 {
     font-size: 20px;
   }
+
+  /* instructor */
+  .instructor-head h3 {
+    font-size: 17px;
+}
+
+.instructor-head .globalHeading {
+    margin-bottom: 0.5rem;
+}
+
+/* instructor end  ---------- */
 
   .poster-container {
     height: 200px;
@@ -157,7 +173,9 @@
   .overImgText {
     padding: 20x;
   }
-  .colons img{max-width: 50%;}
+  .colons img {
+    max-width: 50%;
+  }
 
   .about-mess-mini {
     padding: 0 2rem;
@@ -165,7 +183,7 @@
   }
 
   .about-mess-head h3 {
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .mess-semi-colon-1 {
@@ -174,8 +192,8 @@
   }
 
   .mess-semi-colon-2 {
-    right: 5px;
-        bottom: 100px;
+    right: -13px;
+    bottom: 100px;
   }
 
   .about-keraiPic img {
@@ -214,13 +232,7 @@
     padding: 0;
   }
 
-  .globalHeading.two {
-    margin-bottom: 2rem;
-  }
 
-  .contact-page {
-    margin-top: 5rem;
-  }
 
   .globalHeading.contact {
     margin-bottom: 2rem;
@@ -233,5 +245,30 @@
 
   .gallery-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .padSec {
+    padding: 15px 0;
+  }
+
+  span.innerPageBlock {
+    padding: 7%;
+  }
+
+  a.play-button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .abtImagesWrap {
+    padding: 20px 0;
+  }
+
+  .globalHeading.contactpage {
+    margin-bottom: 2rem;
+  }
+
+  .contact-page a {
+    font-size: 13px;
   }
 }

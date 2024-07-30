@@ -31,7 +31,7 @@ const AcademicOfferings = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='globalHeadingWrap'>
-                <h2 className='globalHeading'>Teaching Community</h2>
+                <h2 className='globalHeading two'>Teaching Community</h2>
               </div>
             </div>
           </div>
@@ -150,8 +150,8 @@ function Academic_Main() {
         <div className="d-flex justify-content-center mb-3">
           <h2 className='globalHeading'>Academic Offerings</h2>
         </div>
-        <div className="row">
-          <div className="col-10 mx-auto">
+        <div className="row justify-content-center">
+          <div className="col-md-10">
             {tabData.map((tab, index) => (
               <Tab
                 key={index}

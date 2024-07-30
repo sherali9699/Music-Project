@@ -62,7 +62,7 @@ const About = () => {
                 <div className="about-main-mess-wrap">
                   <div className="row ">
                     <div className="about-mess-head">
-                      <h2 className="globalHeading">
+                      <h2 className="globalHeading two">
                         Founding Director's Message
                       </h2>
                       <h3>Yosuf Kerai</h3>
