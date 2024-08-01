@@ -26,7 +26,7 @@ const MusicRoom = () => {
       <section className="AcaOffSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-10 col-xl-8">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">
                   Khuwaja Mashooqullah Music Room

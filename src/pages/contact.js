@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="contact-page">
             <h2 className="globalHeading contactpage">Reach Out to Us</h2>
             <div className="row justify-content-center">
-              <div className="col-md-9 col-lg-10">
+              <div className="col-md-10 col-xl-8">
                 <div className="contact-common ">
                   <h3>Center for South Asian Music</h3>
 
@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-md-9 col-lg-10">
+              <div className="col-md-10 col-xl-8">
                 <div className="contact-common">
                   <h3>Yosuf Kerai - Founding Director</h3>
 
@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-md-9 col-lg-10">
+              <div className="col-md-10 col-xl-8">
                 <div className="contact-common">
                   <h3>Chandu Lal - Music Room Manager</h3>
 
@@ -51,7 +51,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-md-9 col-lg-10">
+              <div className="col-md-10 col-xl-8">
                 <div className="contact-common ">
                   <h3>Syed Muhammad Kumail Ali Jaffry - Coordinator</h3>
 
@@ -62,7 +62,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-md-9 col-lg-10">
+              <div className="col-md-10 col-xl-8">
                 <div className="contact-common">
                   <h3>Marya DurkhanWalla - Student Coordinator</h3>
 

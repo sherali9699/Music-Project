@@ -22,7 +22,7 @@ const About = () => {
       <section className="abtSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-xl-8 col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">About</h2>
                 <p>
@@ -57,7 +57,7 @@ const About = () => {
       <section className="messSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9">
+            <div className="col-xl-8 col-lg-10">
               <div className="about-main-mess-box">
                 <div className="about-main-mess-wrap">
                   <div className="row ">

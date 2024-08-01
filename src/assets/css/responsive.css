@@ -22,6 +22,50 @@
     font-size: 42px;
     line-height: 38px;
   }
+
+  .poster-container {
+    height: 370px;
+  }
+
+  .home-event-pics {
+    padding-bottom: 40px;
+  }
+
+  .innerPageBlock {
+    padding: 2.2% 0;
+  }
+
+  .globalHeading.two {
+    font-size: 40px;
+  }
+
+  .about-mess-head h3 {
+    font-size: 32px;
+  }
+
+  .logo img {
+    left: 20px;
+  }
+
+  .mess-semi-colon-1 {
+    left: 36px;
+  }
+
+  .mess-semi-colon-2 {
+    right: 27px;
+  }
+
+  .colons img {
+    width: 72%;
+  }
+
+  .abtImagesWrap {
+    padding: 20px 0 0;
+  }
+
+  .contact-page h2 {
+    margin-bottom: 2.5rem;
+  }
 }
 
 /* Media query for max-width 991px */
@@ -89,6 +133,63 @@
   .gridviewBox {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .padSec {
+    padding: 25px 0 0;
+  }
+
+  .globalBtn {
+    padding: 5px 17px;
+  }
+
+  .globalHeading.two {
+    font-size: 35px;
+  }
+
+  .home-event-pics {
+    padding-bottom: 45px;
+  }
+
+  .innerPageBlock {
+    padding: 4% 0;
+  }
+
+  .about-keraiPic img {
+    max-width: 175px;
+    max-height: 153px;
+  }
+
+  .about-keraiPic {
+    bottom: 5.5rem;
+  }
+
+  .about-mess-head h3 {
+    font-size: 30px;
+  }
+
+  .abtImagesWrap {
+    padding: 24px 0px;
+  }
+
+  .academic-common h3 {
+    font-size: 20px;
+  }
+
+  .contact-page h2 {
+    margin-bottom: 2.2rem;
+  }
+
+  .contact-common h3 {
+    font-size: 23px;
+  }
+
+  .event-inner-header {
+    min-height: 310px;
+  }
+
+  .instructor-head h3 {
+    font-size: 22px;
+  }
 }
 
 /* Media query for max-width 767px */
@@ -146,13 +247,13 @@
   /* instructor */
   .instructor-head h3 {
     font-size: 17px;
-}
+  }
 
-.instructor-head .globalHeading {
+  .instructor-head .globalHeading {
     margin-bottom: 0.5rem;
-}
+  }
 
-/* instructor end  ---------- */
+  /* instructor end  ---------- */
 
   .poster-container {
     height: 200px;
@@ -232,8 +333,6 @@
     padding: 0;
   }
 
-
-
   .globalHeading.contact {
     margin-bottom: 2rem;
   }
@@ -248,7 +347,7 @@
   }
 
   .padSec {
-    padding: 15px 0;
+    padding: 15px 0 0;
   }
 
   span.innerPageBlock {
@@ -271,4 +370,8 @@
   .contact-page a {
     font-size: 13px;
   }
+
+  .home-event-pics {
+    padding-bottom: 50px;
+}
 }
