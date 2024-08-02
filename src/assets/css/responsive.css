@@ -212,6 +212,10 @@
     font-size: 16px;
   }
 
+  .abtImagesWrap {
+    flex-direction: column; 
+  }
+
   .overImgText h4 {
     font-size: 12px;
   }
@@ -268,7 +272,7 @@
   }
 
   .globalBtn {
-    padding: 5px 20px;
+    padding: 3px 13px;
   }
 
   .overImgText {

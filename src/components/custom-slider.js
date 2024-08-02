@@ -27,7 +27,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
     autoplaySpeed: autoplaySpeed || 3000, // Default speed is 3000ms
     responsive: [
       {
-        breakpoint: 1024, // Large devices
+        breakpoint: 1199, // Large devices
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -36,7 +36,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
         },
       },
       {
-        breakpoint: 768, // Medium devices
+        breakpoint: 991, // Medium devices
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -45,7 +45,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
         },
       },
       {
-        breakpoint: 480, // Small devices
+        breakpoint:767, // Small devices
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

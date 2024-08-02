@@ -256,6 +256,10 @@ span {
   margin-bottom: 1rem;
 }
 
+.globalHeading.two{
+  font-size: 46px;
+}
+
 .globalBtn {
   color: var(--primary);
   border: 2px solid var(--primary);
@@ -313,7 +317,7 @@ span {
   align-items: center;
   gap: 20px;
   justify-content: center;
-  padding: 40px 0 0;
+  padding: 25px 0 0;
 }
 
 .InnerWraperImg {
@@ -628,7 +632,7 @@ video {
 }
 
 .contact-page h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .contact-common a {
@@ -872,11 +876,4 @@ footer ul li a:hover {
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------------
   ------------------------------------------------------------Resposive CSS------------------------------------------------------------------------------------------- */
 
-/* Media query for small screens */
-@media (max-width: 425px) {
-  .abtImagesWrap {
-    flex-direction: column; 
-  }
 
-
-}

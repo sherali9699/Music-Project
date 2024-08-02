@@ -43,7 +43,7 @@ const Home = () => {
       <section className="abtSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
+            <div className="col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">About</h2>
                 <p>
@@ -81,7 +81,7 @@ const Home = () => {
       <section className="AcaOffSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
+            <div className="col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading two">Academic Offerings</h2>
                 <p>
@@ -117,7 +117,7 @@ const Home = () => {
       <section className="mrSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
+            <div className="col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading two">
                   Khawaja Mashooqullah Music Room
@@ -146,7 +146,7 @@ const Home = () => {
       <section className="eventSec padSec">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
+            <div className="col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading two">Events</h2>
                 <p>
@@ -159,7 +159,7 @@ const Home = () => {
             </div>
           </div>
           <div className="home-event-pics">
-            <CustomSlider showDots={false} showArrows={true}>
+            <CustomSlider showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
