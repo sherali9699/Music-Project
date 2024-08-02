@@ -309,7 +309,11 @@ span {
 }
 
 .padSec {
-  padding: 70px 0 0px;
+  padding: 65px 0 0;
+}
+
+section.abtSec.padSec.top {
+  padding: 25px 0 0;
 }
 
 .abtImagesWrap {
@@ -317,7 +321,11 @@ span {
   align-items: center;
   gap: 20px;
   justify-content: center;
-  padding: 25px 0 0;
+  padding: 10px 0 0;
+}
+
+.carous{
+  padding: 10px 0 0;
 }
 
 .InnerWraperImg {
@@ -348,7 +356,7 @@ span {
 .overImgText {
   position: absolute;
   bottom: 0;
-  padding: 0 40px;
+  padding: 0 30px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -387,6 +395,9 @@ span {
   grid-gap: 20px;
   justify-content: center;
   padding: 15px 0 0;
+}
+.eventSec .home-event-pics {
+  padding-bottom: 50px;
 }
 
 
@@ -488,7 +499,7 @@ video {
 }
 
 .home-event-pics {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .hoverImgBox {
@@ -839,9 +850,7 @@ footer ul li a:hover {
 .slick-slider {
   position: relative;
 }
-.home-event-pics {
-  padding-bottom: 50px;
-}
+
 .hero-prev-arrow,
 .hero-next-arrow {
   position: absolute;

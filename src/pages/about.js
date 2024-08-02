@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { Helmet } from "react-helmet";
 
-// import '../assets/css/stylesheet.css';
+
+import CustomSlider from '../components/custom-slider';
+
 
 // Import images
 import abtImg1 from "../assets/images/about/home-abt-1.webp";
@@ -12,6 +14,19 @@ import abtimg5 from "../assets/images/about/about-pic-1.webp";
 import abtImg6 from "../assets/images/about/about-pic-2.webp";
 
 const About = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth > 767);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth > 767);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <>
       <Helmet>
@@ -19,7 +34,7 @@ const About = () => {
       </Helmet>
 
       <span className="innerPageBlock"></span>
-      <section className="abtSec padSec">
+      <section className="abtSec padSec top">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
@@ -39,17 +54,40 @@ const About = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap">
+          <div className="home-event-pics">
+          {isMobile && (<ul className="abtImagesWrap">
             <li>
-              <img src={abtImg1} alt="Cultural fusion at Habib University" />
+              <img src={abtImg1} alt="Music Room interior" />
             </li>
             <li>
-              <img src={abtImg2} alt="Immersive learning opportunities" />
+              <img src={abtImg2} alt="Music Room instruments" />
             </li>
             <li>
-              <img src={abtImg3} alt="South Asian Music Minor" />
+              <img src={abtImg3} alt="Music Room practice session" />
             </li>
-          </ul>
+          </ul>)}
+            {!isMobile && (
+              <div className='carous'>
+              <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={abtImg1} alt="Khayal concert event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={abtImg2} alt="Ghazal Kay Rang event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">              
+                    <div className="imgWrap">
+                      <img src={abtImg3} alt="Folk music program" />
+                    </div>              
+                </div>
+              </CustomSlider>
+              </div>
+            )}
+          </div>
         </div>
       </section>
 

@@ -23,7 +23,7 @@ const MusicRoom = () => {
 
       <span className="innerPageBlock"></span>
 
-      <section className="AcaOffSec padSec">
+      <section className="AcaOffSec padSec top">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
@@ -48,7 +48,7 @@ const MusicRoom = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap">
+          <ul className="abtImagesWrap mr">
             <li>
               <img src={m1} alt="Musical exploration course" />
             </li>
@@ -136,7 +136,7 @@ const MusicRoom = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap">
+          <ul className="abtImagesWrap mr ">
             <Link to={"/ustad-khursheed"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">

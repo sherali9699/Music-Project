@@ -21,6 +21,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    // arrows:false,
     nextArrow: showArrows ? <CustomNextArrow /> : null,
     prevArrow: showArrows ? <CustomPrevArrow /> : null,
     autoplay: autoplay,
@@ -31,7 +32,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: !scrollOnSmallScreens, // Disable infinite scrolling on large screens
+          infinite: true, // Disable infinite scrolling on large screens
           dots: showDots,
         },
       },
@@ -40,7 +41,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: !scrollOnSmallScreens, // Disable infinite scrolling on medium screens
+          infinite: true, // Disable infinite scrolling on medium screens
           dots: showDots,
         },
       },

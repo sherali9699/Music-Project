@@ -38,7 +38,7 @@ function Events_Inner() {
       </div>
 
       {/* Main Section */}
-      <section className="mrSec padSec">
+      <section className="mrSec padSec top">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">

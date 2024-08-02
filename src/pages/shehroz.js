@@ -14,7 +14,7 @@ function Shehroz() {
         <title>Shehroze Hussain - Center for South Asian Music</title>
       </Helmet>
     <span className='innerPageBlock'></span>
-    <section className="AcaOffSec padSec">
+    <section className="AcaOffSec padSec top">
       <div className="container instructors">
         <div className="d-flex justify-content-center">
           <div className="instructor-head">

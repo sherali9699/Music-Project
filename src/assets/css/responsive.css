@@ -15,7 +15,7 @@
   }
 
   .padSec {
-    padding: 50px 0 0;
+    padding: 70px 0 0;
   }
 
   .globalHeading {
@@ -27,9 +27,8 @@
     height: 370px;
   }
 
-  .home-event-pics {
-    padding-bottom: 40px;
-  }
+
+
 
   .innerPageBlock {
     padding: 2.2% 0;
@@ -59,13 +58,17 @@
     width: 72%;
   }
 
-  .abtImagesWrap {
+  /* .abtImagesWrap {
     padding: 20px 0 0;
-  }
+  } */
 
   .contact-page h2 {
     margin-bottom: 2.5rem;
   }
+
+  .overImgText {
+    padding: 0 13px;
+}
 }
 
 /* Media query for max-width 991px */
@@ -135,7 +138,7 @@
   }
 
   .padSec {
-    padding: 25px 0 0;
+    padding: 70px 0 0;
   }
 
   .globalBtn {
@@ -146,9 +149,7 @@
     font-size: 35px;
   }
 
-  .home-event-pics {
-    padding-bottom: 45px;
-  }
+
 
   .innerPageBlock {
     padding: 4% 0;
@@ -167,9 +168,9 @@
     font-size: 30px;
   }
 
-  .abtImagesWrap {
+  /* .abtImagesWrap {
     padding: 24px 0px;
-  }
+  } */
 
   .academic-common h3 {
     font-size: 20px;
@@ -190,6 +191,12 @@
   .instructor-head h3 {
     font-size: 22px;
   }
+
+
+  .padSec.top{
+    padding: 20px 0 0;
+  }
+
 }
 
 /* Media query for max-width 767px */
@@ -208,7 +215,7 @@
     font-size: 14px;
   }
 
-  .overImgText h3 {
+  /* .overImgText h3 {
     font-size: 16px;
   }
 
@@ -230,7 +237,7 @@
 
   .hoverImgBox {
     padding: 0px;
-  }
+  } */
 
   /* header */
   .logo img {
@@ -245,7 +252,7 @@
 
   /* academic off */
   .academic-common h3 {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   /* instructor */
@@ -268,7 +275,7 @@
   }
 
   .abtSec.padSec {
-    padding: 20px 0 0;
+    padding: 70px 0 0;
   }
 
   .globalBtn {
@@ -347,11 +354,11 @@
   }
 
   .gallery-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .padSec {
-    padding: 15px 0 0;
+    padding: 70px 0 0;
   }
 
   span.innerPageBlock {
@@ -359,8 +366,8 @@
   }
 
   a.play-button {
-    width: 35px;
-    height: 35px;
+    width: 41px;
+    height: 41px;
   }
 
   .abtImagesWrap {
@@ -375,7 +382,18 @@
     font-size: 13px;
   }
 
-  .home-event-pics {
-    padding-bottom: 50px;
+
+
+.academic-common {
+  padding: 0.5rem 0.8rem;
 }
+
+.padSec.top{
+  padding: 15px 0 0;
+}
+
+.play-icon {
+  font-size: 18px;
+}
+
 }

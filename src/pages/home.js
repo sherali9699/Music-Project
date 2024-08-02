@@ -1,5 +1,5 @@
 // Import React and necessary components and styles
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -27,6 +27,19 @@ import eventImg3 from "../assets/images/events/event-card-3.webp";
 
 
 const Home = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth > 767);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth > 767);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="home">
       <Helmet>
@@ -40,14 +53,14 @@ const Home = () => {
       {/* Render the VideoPauseHero component */}
 
       {/* About Section */}
-      <section className="abtSec padSec">
+      <section className="abtSec padSec top">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="globalHeadingWrap">
                 <h2 className="globalHeading">About</h2>
                 <p>
-                Experience the fusion of culture and education at the Center for South Asian Music at Habib University. Our Music Room provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor. Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding.
+                  Experience the fusion of culture and education at the Center for South Asian Music at Habib University. Our Music Room provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor. Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding.
                 </p>
                 <Link className="globalBtn borderBtn" to="/about">
                   Explore
@@ -56,23 +69,38 @@ const Home = () => {
             </div>
           </div>
           <div className="home-event-pics">
-            <CustomSlider showDots={false} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
-              <div className="hoverImgBox">                
-                  <div className="imgWrap">
-                    <img src={abtImg1} alt="Khayal concert event" />
-                  </div>                
+          {isMobile && (<ul className="abtImagesWrap">
+            <li>
+              <img src={abtImg1} alt="Music Room interior" />
+            </li>
+            <li>
+              <img src={abtImg2} alt="Music Room instruments" />
+            </li>
+            <li>
+              <img src={abtImg3} alt="Music Room practice session" />
+            </li>
+          </ul>)}
+            {!isMobile && (
+              <div className='carous'>
+              <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={abtImg1} alt="Khayal concert event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={abtImg2} alt="Ghazal Kay Rang event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">              
+                    <div className="imgWrap">
+                      <img src={abtImg3} alt="Folk music program" />
+                    </div>              
+                </div>
+              </CustomSlider>
               </div>
-              <div className="hoverImgBox">                
-                  <div className="imgWrap">
-                    <img src={abtImg2} alt="Ghazal Kay Rang event" />
-                  </div>                
-              </div>
-              <div className="hoverImgBox">              
-                  <div className="imgWrap">
-                    <img src={abtImg3} alt="Folk music program" />
-                  </div>              
-              </div>
-            </CustomSlider>
+            )}
           </div>
         </div>
       </section>
@@ -96,20 +124,32 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap">
+          <div className="home-event-pics">
+          {isMobile && (<ul className="abtImagesWrap">
             <li>
-              <img
-                src={academicOfferingsImg1}
-                alt="Musical exploration course"
-              />
+              <img src={academicOfferingsImg1} alt="Music Room interior" />
             </li>
             <li>
-              <img
-                src={academicOfferingsImg2}
-                alt="Interdisciplinary musical study"
-              />
+              <img src={academicOfferingsImg2} alt="Music Room instruments" />
             </li>
-          </ul>
+          </ul>)}
+            {!isMobile && (
+              <div className='carous'>
+              <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={academicOfferingsImg1} alt="Khayal concert event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={academicOfferingsImg2} alt="Ghazal Kay Rang event" />
+                    </div>                
+                </div>
+              </CustomSlider>
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
@@ -128,7 +168,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap">
+          <div className="home-event-pics">
+          {isMobile && (<ul className="abtImagesWrap">
             <li>
               <img src={mrImg1} alt="Music Room interior" />
             </li>
@@ -138,7 +179,30 @@ const Home = () => {
             <li>
               <img src={mrImg3} alt="Music Room practice session" />
             </li>
-          </ul>
+          </ul>)}
+          
+            {!isMobile && (
+              <div className='carous'>
+              <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={mrImg1} alt="Khayal concert event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">                
+                    <div className="imgWrap">
+                      <img src={mrImg2} alt="Ghazal Kay Rang event" />
+                    </div>                
+                </div>
+                <div className="hoverImgBox">              
+                    <div className="imgWrap">
+                      <img src={mrImg3} alt="Folk music program" />
+                    </div>              
+                </div>
+              </CustomSlider>
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
@@ -159,6 +223,7 @@ const Home = () => {
             </div>
           </div>
           <div className="home-event-pics">
+            <div className='carous'>
             <CustomSlider showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
@@ -194,6 +259,7 @@ const Home = () => {
                 </div>
               </div>
             </CustomSlider>
+            </div>
           </div>
         </div>
       </section>

@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Helmet } from 'react-helmet';
 
 // import '../assets/css/stylesheet.css';
 
 //importing Tabs
 import Tab from '../components/AcaoffTabs'
+import CustomSlider from '../components/custom-slider';
 
 // Import images
 import img1 from '..//assets/images/acaOffering/acaOff-1.webp';
@@ -13,6 +14,20 @@ import img2 from '..//assets/images/acaOffering/acaOff-3.webp';
 
 
 const AcademicOfferings = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth > 767);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth > 767);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
   return (
     <>
       <Helmet>
@@ -35,7 +50,88 @@ const AcademicOfferings = () => {
               </div>
             </div>
           </div>
-          <ul className='abtImagesWrap'>
+          <div className="home-event-pics">
+          {isMobile && (<ul className="abtImagesWrap">
+            <div className='hoverImgBox'>
+            <div className='InnerWraperImg'>
+              <div className="imgWrap">
+                <img src={img2} alt="Khayal concert event" />
+              </div>
+              <div className="overImgText">
+                <h3>Ustad Shahid Hamid</h3>
+                <h4>Visiting Associate Professor of Practice, Comparative Humanities</h4>
+              </div>
+            </div>
+          </div>
+          <div className='hoverImgBox'>
+            <div className='InnerWraperImg'>
+              <div className="imgWrap">
+                <img src={img1} alt="Khayal concert event" />
+              </div>
+              <div className="overImgText">
+                <h3>Yosuf Kerai, M.A.T</h3>
+                <h4>Associate Professor of Practice, Comparative Humanities</h4>
+              </div>
+            </div>
+          </div>
+          <div className='hoverImgBox'>
+            <div className='InnerWraperImg'>
+              <div className="imgWrap">
+                <img src={img3} alt="Khayal concert event" />
+              </div>
+              <div className="overImgText">
+                <h3>Aaron Molvany, PH.D.</h3>
+                <h4>Associate Professor, Social Development and Policy</h4>
+              </div>
+            </div>
+          </div>        
+          </ul>)}
+            {!isMobile && (
+              <div className='carous'>
+              <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+              <div className='hoverImgBox'>
+            <div className='InnerWraperImg'>
+              <div className="imgWrap">
+                <img src={img2} alt="Khayal concert event" />
+              </div>
+              <div className="overImgText">
+                <h3>Ustad Shahid Hamid</h3>
+                <h4>Visiting Associate Professor of Practice, Comparative Humanities</h4>
+              </div>
+            </div>
+          </div>
+          <div className='hoverImgBox'>
+            <div className='InnerWraperImg'>
+              <div className="imgWrap">
+                <img src={img1} alt="Khayal concert event" />
+              </div>
+              <div className="overImgText">
+                <h3>Yosuf Kerai, M.A.T</h3>
+                <h4>Associate Professor of Practice, Comparative Humanities</h4>
+              </div>
+            </div>
+          </div>
+          <div className='hoverImgBox'>
+            <div className='InnerWraperImg'>
+              <div className="imgWrap">
+                <img src={img3} alt="Khayal concert event" />
+              </div>
+              <div className="overImgText">
+                <h3>Aaron Molvany, PH.D.</h3>
+                <h4>Associate Professor, Social Development and Policy</h4>
+              </div>
+            </div>
+          </div>   
+              </CustomSlider>
+              </div>
+            )}
+          </div>
+
+
+
+
+
+          {/* <ul className='abtImagesWrap'>
           <div className='hoverImgBox'>
             <div className='InnerWraperImg'>
               <div className="imgWrap">
@@ -69,7 +165,7 @@ const AcademicOfferings = () => {
               </div>
             </div>
           </div>        
-        </ul>
+        </ul> */}
         </div>
       </section>
     </>
@@ -145,13 +241,13 @@ function Academic_Main() {
 
   return (
     
-    <section className='AcaOffSec padSec'>
+    <section className='AcaOffSec padSec top'>
       <div className="container">
-        <div className="d-flex justify-content-center mb-3">
+        <div className="d-flex justify-content-center mb-4">
           <h2 className='globalHeading'>Academic Offerings</h2>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-10">
+          <div className="col-lg-10">
             {tabData.map((tab, index) => (
               <Tab
                 key={index}
