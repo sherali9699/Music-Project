@@ -20,15 +20,13 @@ import ScrollToTop from './components/ScrollToTop';
 import ScrollToTopButton from './components/ScrollToTopBtn';
 
 import './App.css';
-import './assets/css/stylesheet.css'
-import './assets/css/responsive.css'
-
+import './assets/css/stylesheet.css';
+import './assets/css/responsive.css';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <ScrollToTop /> 
+      <Router basename={'/dev-music'}>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -46,7 +44,6 @@ function App() {
           <Route path='/zohaib-khursheed-hussain-tabla-instructor' element={<Zohaib />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        {/* <ScrollToTopButton />  */}
         <Footer />
       </Router>
     </div>
