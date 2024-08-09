@@ -202,7 +202,7 @@ function Academic_Main() {
         "A common perspective about South Asian “classical” music is that it's a static form of music, innovated by Mughal patrons and only accessible to a particular class. A lot of these perceptions stem from the modern politicized vision of history as well as the discourse of this music’s Orientalist other— Western classical music. This is the first assumption we will unravel; in the context of South Asian music, what does “classical” actually mean? What influenced aesthetic principles? Who were the early practitioners? Why did this music gain popularity in the courtly setting? Which milieu did it thrive and flourish in? How does it reflect various socio-historic contexts? How does modern day nationalism shape discourse on music?Not only can this historical and critical inquiry inform us about the musical system, but the musical system itself can challenge our ways of understanding history, cultural practices and societal interactions.",
     },
     {
-      title: "Musicking: Antropology of music",
+      title: "Musicking: Anthropology of music",
       content:
         "Music is social, an activity to be engaged in rather than an object to be possessed or observed. Music is collaborative construction, signifier and signified. Drawing fundamental concepts and theories from anthropology and critical theory, students in this course will explore human sociality through an activity with which we can all identify: music-making.",
     },
