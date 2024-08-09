@@ -311,12 +311,12 @@ span {
   border-color: var(--primary);
 }
 
-.padSec {
-  padding: 65px 0 0;
+.eve-button-conatin {
+  text-align: center;
 }
 
-section.abtSec.padSec.top {
-  padding: 25px 0 0;
+.padSec {
+  padding: 65px 0 0;
 }
 
 .abtImagesWrap {
@@ -403,6 +403,13 @@ section.abtSec.padSec.top {
   padding-bottom: 50px;
 }
 
+.eve-button-conatin {
+  text-align: center;
+}
+
+.eventsSec .InnerWraperImg {
+  border: 1px solid #000;
+}
 
 /* scroll to top button */
 .scroll-to-top {
@@ -485,6 +492,11 @@ section.abtSec.padSec.top {
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
+
+.nav-item:hover a{
+  color: #000;
+}
+
 
 .nav-item-1 {
   width: 40px;
@@ -716,7 +728,7 @@ video {
   align-items: flex-end;
   padding-bottom: 2rem;
 }
-.bannerHead .globalHeading {color: #fff !important;margin-bottom: 10px;}
+.bannerHead .globalHeading {color: #fff !important;margin: 0 0 10px 0;}
 
 span.dateonBanner {
     color: #fff;

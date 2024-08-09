@@ -21,9 +21,10 @@ import academicOfferingsImg2 from "../assets/images/acaOffering/academic-offerin
 import mrImg1 from "../assets/images/home/mr-1.webp";
 import mrImg2 from "../assets/images/home/mr-2.webp";
 import mrImg3 from "../assets/images/home/mr-3.webp";
-import eventImg1 from "../assets/images/events/event-card-1.webp";
-import eventImg2 from "../assets/images/events/event-card-2.webp";
-import eventImg3 from "../assets/images/events/event-card-3.webp";
+import eventImg1 from "../assets/images/event-assets/31_Bansuri Workshop with Ustad Hanif Khan/Thumbnail.jpg";
+import eventImg2 from "../assets/images/event-assets/32_The Evolution of Khayal/Thumbnail.jpg";
+import eventImg3 from "../assets/images/event-assets/33_Echoes of Tradition - The Art of Tabla Solo with Ustad Shahbaz Hussain/Thumbnail.jpg";
+import eventImg4 from "../assets/images/event-assets/34_Awards Night/Thumnail.jpg";
 
 
 const Home = () => {
@@ -225,39 +226,58 @@ const Home = () => {
           <div className="home-event-pics">
             <div className='carous'>
             <CustomSlider showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+              <Link to={"/events/awards-night-30-may-2024"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
                     <img src={eventImg1} alt="Khayal concert event" />
                   </div>
                   <div className="overImgText">
-                    <h3>Week of Welcome: Musical Evening</h3>
-                    <h4>DATE: 12/3/2024</h4>
+                    <h3>Awards Night</h3>
+                    <h4>DATE: 30/May/2024</h4>
                   </div>
-                </div>
+                </div>             
               </div>
+              </Link>
+              <Link to={'/events/echoes-of-tradition-the-art-of-tabla-solo-with-ustad-shahbaz-hussain-07-mar-2024'}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
                     <img src={eventImg2} alt="Ghazal Kay Rang event" />
                   </div>
                   <div className="overImgText">
-                    <h3>Week of Welcome: Musical Evening</h3>
-                    <h4>DATE: 12/3/2024</h4>
+                    <h3>Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain</h3>
+                    <h4>07/Mar/2024</h4>
                   </div>
                 </div>
               </div>
+              </Link>
+              <Link to={'/events/the-evolution-of-khayal-05-mar-2024'}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
                     <img src={eventImg3} alt="Folk music program" />
                   </div>
                   <div className="overImgText">
-                    <h3>Week of Welcome: Musical Evening</h3>
-                    <h4>DATE: 12/3/2024</h4>
+                    <h3>The Evolution of Khayal</h3>
+                    <h4>DATE: 05/Mar/2024</h4>
                   </div>
                 </div>
               </div>
+              </Link>
+              <Link to={'/events/bansuri-workshop-with-ustad-hanif-khan-29-feb-2024'}>
+              <div className="hoverImgBox">
+                <div className="InnerWraperImg">
+                  <div className="imgWrap">
+                    <img src={eventImg4} alt="Folk music program" />
+                  </div>
+                  <div className="overImgText">
+                    <h3>Bansuri Workshop with Ustad Hanif Khan</h3>
+                    <h4>DATE: 29/Feb/2024</h4>
+                  </div>
+                </div>
+              </div>
+              </Link>
             </CustomSlider>
             </div>
           </div>

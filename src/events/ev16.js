@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 // Component
@@ -82,6 +83,11 @@ function Ev16() {
                 </div>
               </Fancybox>
             </div>
+            <div className="eve-button-conatin mt-1" >
+                <Link to={"/events"}>
+                  <span className="globalBtn borderBtn">Back</span>
+                  </Link>
+                </div>
           </div>
         </div>
       </section>

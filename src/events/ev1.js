@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 // Component
@@ -12,7 +13,6 @@ import im3 from "../assets/images/event-assets/01/IMG_7158.jpg";
 import im4 from "../assets/images/event-assets/01/IMG_7190.jpg";
 import im5 from "../assets/images/event-assets/01/IMG_7194.jpg";
 
-
 function Ev1() {
   return (
     <>
@@ -21,7 +21,10 @@ function Ev1() {
       </Helmet>
 
       {/* Header */}
-      <div className="event-inner-header" style={{ backgroundImage: `url(${banner})` }}>
+      <div
+        className="event-inner-header"
+        style={{ backgroundImage: `url(${banner})` }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-xl-10">
@@ -46,10 +49,10 @@ function Ev1() {
                   featuring Farah Yaisn Shaikh, a renowned performer,
                   choreographer, instructor and Founder/Director for Noorani
                   Dance, known for her evocative storytelling, technical
-                  precision, delicacy and grace. Accompanied by Shehroze Hussain,
-                  the prodigious son and disciple of Ustaad Sajid Hussain, and
-                  Yosuf Kerai, Habib University's in-house-tabla-nawaz, a
-                  memorable performance was delivered.
+                  precision, delicacy and grace. Accompanied by Shehroze
+                  Hussain, the prodigious son and disciple of Ustaad Sajid
+                  Hussain, and Yosuf Kerai, Habib University's
+                  in-house-tabla-nawaz, a memorable performance was delivered.
                 </p>
               </div>
               <Fancybox
@@ -78,6 +81,13 @@ function Ev1() {
                 </div>
               </Fancybox>
             </div>
+            
+                <div className="eve-button-conatin mt-1" >
+                <Link to={"/events"}>
+                  <span className="globalBtn borderBtn">Back</span>
+                  </Link>
+                </div>
+              
           </div>
         </div>
       </section>
