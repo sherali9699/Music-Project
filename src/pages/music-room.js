@@ -70,7 +70,7 @@ const MusicRoom = () => {
             </div>
           </div>
           <ul className="abtImagesWrap mr">
-            <Link to={"/intezar-hussain-vocal-instructor"}>
+            <Link to={"/music-room/intezar-hussain-vocal-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -78,12 +78,12 @@ const MusicRoom = () => {
                   </div>
                   <div className="overImgText">
                     <h3>Intezar Hussain</h3>
-                    <h4>Vocal instructor</h4>
+                    <h4>Vocal Instructor</h4>
                   </div>
                 </div>
               </div>
             </Link>
-            <Link to={"/islam-uddin-mir"}>
+            <Link to={"/music-room/islam-uddin-mir"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -91,12 +91,12 @@ const MusicRoom = () => {
                   </div>
                   <div className="overImgText">
                     <h3>Islamuddin Meer</h3>
-                    <h4>Violin instructor</h4>
+                    <h4>Violin Instructor</h4>
                   </div>
                 </div>
               </div>
             </Link>
-            <Link to={"/shehroze-hussain-sitar-instructor"}>
+            <Link to={"/music-room/shehroze-hussain-sitar-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -104,12 +104,12 @@ const MusicRoom = () => {
                   </div>
                   <div className="overImgText">
                     <h3>Shehroze Hussain</h3>
-                    <h4>Sitar instructor</h4>
+                    <h4>Sitar Instructor</h4>
                   </div>
                 </div>
               </div>
             </Link>
-            <Link to={"/zohaib-khursheed-hussain-tabla-instructor"}>
+            <Link to={"/music-room/zohaib-khursheed-hussain-tabla-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -117,7 +117,7 @@ const MusicRoom = () => {
                   </div>
                   <div className="overImgText">
                     <h3>Zohaib Hussain</h3>
-                    <h4>Tabla instructor</h4>
+                    <h4>Tabla Instructor</h4>
                   </div>
                 </div>
               </div>
@@ -132,12 +132,12 @@ const MusicRoom = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading two">Remebring the Great Ustads</h2>
+                <h2 className="globalHeading two">Remembring the Great Ustads</h2>
               </div>
             </div>
           </div>
           <ul className="abtImagesWrap mr ">
-            <Link to={"/ustad-khursheed"}>
+            <Link to={"/music-room/ustad-khursheed"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -145,12 +145,12 @@ const MusicRoom = () => {
                   </div>
                   <div className="overImgText">
                     <h3>Ustad Khurshid Hussain</h3>
-                    <h4>Tabla instructor</h4>
+                    <h4>Tabla Instructor</h4>
                   </div>
                 </div>
               </div>
             </Link>
-            <Link to={"/ustad-sajid-hussain"}>
+            <Link to={"/music-room/ustad-sajid-hussain"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
@@ -158,7 +158,7 @@ const MusicRoom = () => {
                   </div>
                   <div className="overImgText">
                     <h3>Ustad Sajid Hussain</h3>
-                    <h4>Tabla instructor</h4>
+                    <h4>Tabla Instructor</h4>
                   </div>
                 </div>
               </div>

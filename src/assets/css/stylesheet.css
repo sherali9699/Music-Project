@@ -140,6 +140,8 @@ h1,
 .h1 {
   color: var(--primary) !important;
   font-family: var(--heading-family);
+  margin: 0.5rem;
+  line-height: 1.2;
 }
 :root {
   --primary: #513001;
@@ -211,6 +213,7 @@ a {
 p {
   line-height: 26px;
   display: block;
+  padding-bottom: 1rem;
 }
 span {
   display: inline-block;
@@ -461,6 +464,58 @@ section.abtSec.padSec.top {
 
 
 
+.nav-item {
+  position: relative;
+}
+
+.nav-item span {
+  position: absolute;
+  background-color: #fff;
+  height: 2px;
+  border-radius: 5px;
+  bottom: -3px;
+  left: -52px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .nav-item:hover span, */
+.nav-item .nav-link.active + span {
+  left: -2px;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item-1 {
+  width: 40px;
+}
+
+.nav-item-2 {
+  width: 64px;
+}
+
+.nav-item-3 {
+  width: 135px;
+}
+
+.nav-item-4 {
+  width: 83px;
+}
+
+.nav-item-5 {
+  width: 46px;
+}
+
+.nav-item-6 {
+  width: 99px;
+}
+
+.nav-item-7 {
+  width: 76px;
+}
+
+
+
 
 
 /* home page */
@@ -634,10 +689,6 @@ video {
   font-weight: 700;
 }
 
-.contact-common a{
-  color: var(--secondary);
-}
-
 .contact-page {
   text-align: center;
 }
@@ -648,9 +699,12 @@ video {
 
 .contact-common a {
   display: block;
+  color: var(--secondary);
   /* line-height: 15px; */
   /* margin-top: 1rem; */
   /* font-size: 18px; */
+  line-height: 1.7;
+
 }
 
 /* events inner */
