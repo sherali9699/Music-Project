@@ -21,6 +21,7 @@ function Ev28() {
         <title>
         Ghazal Kay Rang - Center for South Asian Music 
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/ghazal-kay-rang-25-jan-2024" />
       </Helmet>
 
       {/* Header */}

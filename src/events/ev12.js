@@ -23,6 +23,7 @@ function Ev12() {
     <>
       <Helmet>
         <title>Awards Night - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/awards-night-02-june-2022" />
       </Helmet>
 
       {/* Header */}

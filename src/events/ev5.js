@@ -20,6 +20,7 @@ function Ev5() {
     <>
       <Helmet>
         <title>Week of Welcome: Musical Evening  - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/week-of-welcome-musical-evening-30-aug-2019" />
       </Helmet>
 
       {/* Header */}

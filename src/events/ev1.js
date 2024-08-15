@@ -18,11 +18,11 @@ function Ev1() {
     <>
       <Helmet>
         <title>Andaaz: The Dance Concert - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/andaaz-the-dance-concert-30-nov-2018" />
       </Helmet>
 
       {/* Header */}
-      <div
-        className="event-inner-header"
+      <div className="event-inner-header"
         style={{ backgroundImage: `url(${banner})` }}
       >
         <div className="container">

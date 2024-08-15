@@ -12,6 +12,7 @@ function Zohaib() {
     <>
       <Helmet>
         <title>Zohaib Khursheed Hussain - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room/zohaib-khursheed-hussain-tabla-instructor" />
       </Helmet>
 
     <span className='innerPageBlock'></span>

@@ -18,6 +18,11 @@ const StudentWorks = () => {
     <>
       <Helmet>
         <title>Student Works - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/student-works" />
+        <meta
+          name="description"
+          content="CDiscover innovative music projects by students at Habib University. See how young talents are pushing the boundaries of creativity and sound."
+        />
       </Helmet>
 
     <span className='innerPageBlock'></span>
@@ -26,7 +31,7 @@ const StudentWorks = () => {
       <div className='row justify-content-center'>
         <div className='col-lg-8'>
           <div className='globalHeadingWrap'>
-            <h2 className='globalHeading'>Students' Work</h2>
+            <h1 className='globalHeading'>Students' Work</h1>
           </div>
         </div>
       </div>

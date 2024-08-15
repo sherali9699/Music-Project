@@ -9,7 +9,9 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/contact" />
       </Helmet>
+
       <span className='innerPageBlock'></span>
       <section className="AcaOffSec padSec top">
         <div className="container">

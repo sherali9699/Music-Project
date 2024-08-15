@@ -1,25 +1,28 @@
 import React from 'react';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// importing components
 import Header from './components/header';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop'; 
+
+// importing main pages
 import Home from './pages/home';
 import About from './pages/about';
 import AcademicOfferings from './pages/academic-offerings';
 import MusicRoom from './pages/music-room';
 import Events from './pages/events';
-// import Events_Inner from './pages/inner-page';
 import StudentWorks from './pages/student-works';
+import Contact from './pages/contact';
+
+// importing instructor pages 
 import Intizaar from './pages/intezaar';
 import Sajid from './pages/sajjid';
 import Khurshid from './pages/khurshid';
 import Islam from './pages/islamuddin';
 import Shehroz from './pages/shehroz';
 import Zohaib from './pages/zohaib';
-import Contact from './pages/contact';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop'; 
-import ScrollToTopButton from './components/ScrollToTopBtn';
-
 
 // importing events pages
 import Ev1 from './events/ev1';
@@ -66,9 +69,11 @@ function App() {
   return (
     <div className="App">
       {/* <Router basename={'/dev-music'}> */}
-      <BrowserRouter>
+      <BrowserRouter> 
+      <ScrollToTop />
         <Header />
         <Routes>
+          {/* main pages routes */}
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/academic-offerings' element={<AcademicOfferings />} />
@@ -77,7 +82,7 @@ function App() {
           <Route path='/student-works' element={<StudentWorks />} />
           <Route path='/contact' element={<Contact />} />
 
-          {/* insructors routes */}
+          {/* insructors pages routes */}
           <Route path='/music-room/intezar-hussain-vocal-instructor' element={<Intizaar />} />
           <Route path='/music-room/ustad-khursheed' element={<Khurshid />} />
           <Route path='/music-room/ustad-sajid-hussain' element={<Sajid />} />

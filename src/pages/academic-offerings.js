@@ -8,9 +8,9 @@ import Tab from '../components/AcaoffTabs'
 import CustomSlider from '../components/custom-slider';
 
 // Import images
-import img1 from '..//assets/images/acaOffering/acaOff-1.webp';
-import img3 from '..//assets/images/acaOffering/acaOff-2.webp'
-import img2 from '..//assets/images/acaOffering/acaOff-3.webp';
+import img1 from '..//assets/images/acaOffering/profile01.webp';
+import img3 from '..//assets/images/acaOffering/Profile02.webp';
+import img2 from '..//assets/images/acaOffering/Profile03.webp';
 
 
 const AcademicOfferings = () => {
@@ -32,6 +32,11 @@ const AcademicOfferings = () => {
     <>
       <Helmet>
         <title>ACADEMIC OFFERINGS - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/academic-offerings" />
+        <meta
+          name="description"
+          content="Embark on a journey of musical exploration and academic inquiry with our diverse array of courses led by esteemed instructors."
+        />
       </Helmet>
 
     <span className='innerPageBlock'></span>
@@ -41,7 +46,7 @@ const AcademicOfferings = () => {
     <Academic_Main/>
 
     {/* Teaching community sec */}
-      <section className='AcaOffSec padSec'>
+      <section className='AcaOffSec teach-com padSec'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
@@ -126,46 +131,6 @@ const AcademicOfferings = () => {
               </div>
             )}
           </div>
-
-
-
-
-
-          {/* <ul className='abtImagesWrap'>
-          <div className='hoverImgBox'>
-            <div className='InnerWraperImg'>
-              <div className="imgWrap">
-                <img src={img2} alt="Khayal concert event" />
-              </div>
-              <div className="overImgText">
-                <h3>Ustad Shahid Hamid</h3>
-                <h4>Visiting Associate Professor of Practice, Comparative Humanities</h4>
-              </div>
-            </div>
-          </div>
-          <div className='hoverImgBox'>
-            <div className='InnerWraperImg'>
-              <div className="imgWrap">
-                <img src={img1} alt="Khayal concert event" />
-              </div>
-              <div className="overImgText">
-                <h3>Yosuf Kerai, M.A.T</h3>
-                <h4>Associate Professor of Practice, Comparative Humanities</h4>
-              </div>
-            </div>
-          </div>
-          <div className='hoverImgBox'>
-            <div className='InnerWraperImg'>
-              <div className="imgWrap">
-                <img src={img3} alt="Khayal concert event" />
-              </div>
-              <div className="overImgText">
-                <h3>Aaron Molvany, PH.D.</h3>
-                <h4>Associate Professor, Social Development and Policy</h4>
-              </div>
-            </div>
-          </div>        
-        </ul> */}
         </div>
       </section>
     </>
@@ -244,7 +209,7 @@ function Academic_Main() {
     <section className='AcaOffSec padSec top'>
       <div className="container">
         <div className="d-flex justify-content-center mb-4">
-          <h2 className='globalHeading'>Academic Offerings</h2>
+          <h1 className='globalHeading'>Academic Offerings</h1>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-10">

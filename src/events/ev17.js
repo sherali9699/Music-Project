@@ -23,6 +23,7 @@ function Ev17() {
         <title>
         Khursheed-e-Fann - Center for South Asian Music
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/khursheed-e-fann-11-nov-2022" />
       </Helmet>
 
       {/* Header */}

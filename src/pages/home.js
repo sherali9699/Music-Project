@@ -7,6 +7,7 @@ import VideoPauseHero from "../components/VideoPauseHero"; // Import VideoPauseH
 import VideoPopup from "../components/VideoPopup";
 
 import CustomSlider from "../components/custom-slider";
+import CustomSlider2 from '../components/custom-slide2';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -47,6 +48,7 @@ const Home = () => {
         <title>
           Center fot South Asian Music - Center for South Asian Music
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/" />
       </Helmet>
 
       
@@ -59,7 +61,7 @@ const Home = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading">About</h2>
+                <h1 className="globalHeading">About</h1>
                 <p>
                   Experience the fusion of culture and education at the Center for South Asian Music at Habib University. Our Music Room provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor. Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding.
                 </p>
@@ -225,7 +227,7 @@ const Home = () => {
           </div>
           <div className="home-event-pics">
             <div className='carous'>
-            <CustomSlider showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+            <CustomSlider2 showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
               <Link to={"/events/awards-night-30-may-2024"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
@@ -278,7 +280,7 @@ const Home = () => {
                 </div>
               </div>
               </Link>
-            </CustomSlider>
+            </CustomSlider2>
             </div>
           </div>
         </div>

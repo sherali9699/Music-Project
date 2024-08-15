@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <div className="container-fluid">
-        <ul className="d-flex justify-content-center">
+        <ul className="d-flex justify-content-center mb-2">
           <li>
             <a href="https://www.facebook.com/HabibUniversity/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebookF} />

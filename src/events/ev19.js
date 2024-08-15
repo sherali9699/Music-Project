@@ -22,6 +22,7 @@ function Ev19() {
         <title>
         Listening Through the Times with Nizar Lalani - Center for South Asian Music
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/listening-through-the-times-with-nizar-lalani-26-jan-2023" />
       </Helmet>
 
       {/* Header */}

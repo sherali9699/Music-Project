@@ -19,6 +19,7 @@ function Ev22() {
         <title>
         Vocals Lecture Demo with Muslim Shaggan - Center for South Asian Music 
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/vocals-lecture-demo-with-muslim-shaggan-07-mar-2023" />
       </Helmet>
 
       {/* Header */}

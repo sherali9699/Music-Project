@@ -22,6 +22,7 @@ function Ev15() {
           Musicking through Makran with Ustad Noor Baksh - Center for South
           Asian Music
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/musicking-through-makran-with-ustad-noor-baksh-30-sept-2022" />
       </Helmet>
 
       {/* Header */}

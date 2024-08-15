@@ -313,6 +313,7 @@ span {
 
 .eve-button-conatin {
   text-align: center;
+  margin-top: 1.7rem;
 }
 
 .padSec {
@@ -411,62 +412,8 @@ span {
   border: 1px solid #000;
 }
 
-/* scroll to top button */
-.scroll-to-top {
-  position: fixed;
-  bottom: 100px;
-  right: 50px;
-  z-index: 1000;
-  transform: rotateY(90);
-}
-
-#arrowAnim {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.arrow {
-  width: 30px;
-  height: 30px;
-  border: 10px solid;
-  border-color: var(--primary) transparent transparent var(--primary);
-  transform: rotate(45deg);
-  cursor: pointer;
-}
 
 
-.arrowSliding {
-  position: absolute;
-  -webkit-animation: slide 4s linear infinite; 
-          animation: slide 4s linear infinite;
-}
-
-.delay1 {
-  -webkit-animation-delay: 1s; 
-    animation-delay: 1s;
-}
-.delay2 {
-  -webkit-animation-delay: 2s; 
-    animation-delay: 2s;
-}
-.delay3 {
-  -webkit-animation-delay: 3s; 
-    animation-delay: 3s;
-}
-
-@-webkit-keyframes slide {
-    0% { opacity:0; transform: translateY(4rem); }	
-   20% { opacity:1; transform: translateY(3rem); }	
-   80% { opacity:1; transform: translateY(-2rem); }	
-  100% { opacity:0; transform: translateY(-1rem); }	
-}
-@keyframes slide {
-    0% { opacity:0; transform: translateY(4rem); }	
-   20% { opacity:1; transform: translateY(3rem); }	
-   80% { opacity:1; transform: translateY(-2rem); }	
-  100% { opacity:0; transform: translateY(-1rem); }	
-}
 
 
 
@@ -481,20 +428,16 @@ span {
   height: 2px;
   border-radius: 5px;
   bottom: -3px;
-  left: -52px;
+  left: -42px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
-/* .nav-item:hover span, */
+.nav-item:hover span,
 .nav-item .nav-link.active + span {
-  left: -2px;
+  left: 0;
   opacity: 1;
   transition: all 0.3s ease-in-out;
-}
-
-.nav-item:hover a{
-  color: #000;
 }
 
 
@@ -527,7 +470,9 @@ span {
 }
 
 
-
+.eventsSec a{
+  font-size: 0;
+}
 
 
 /* home page */
@@ -642,7 +587,7 @@ video {
   font-size: 24px;
   font-weight: 700;
   display: inline-block;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .academic-common p {
@@ -660,6 +605,7 @@ video {
   font-size: 26px;
   font-weight: 700;
   line-height: 20px;
+  color: var(--primary);
 }
 
 #tab {

@@ -21,6 +21,7 @@ function Ev6() {
     <>
       <Helmet>
         <title>Week of Welcome: Musical Evening  - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/week-of-welcome-musical-evening-12-mar-2021" />
       </Helmet>
 
       {/* Header */}

@@ -21,6 +21,7 @@ function Ev27() {
         <title>
         Campus Visit | Ustad Shafqat Ali Khan - Center for South Asian Music 
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/campus-visit-ustad-shafqat-ali-khan-27-nov-2023" />
       </Helmet>
 
       {/* Header */}

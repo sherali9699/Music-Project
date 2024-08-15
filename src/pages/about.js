@@ -31,6 +31,11 @@ const About = () => {
     <>
       <Helmet>
         <title>About Us - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/about" />
+        <meta
+          name="description"
+          content="Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding."
+        />
       </Helmet>
 
       <span className="innerPageBlock"></span>
@@ -39,7 +44,7 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading">About</h2>
+                <h1 className="globalHeading">About</h1>
                 <p>
                   The Center for South Asian Music which houses the Music Room
                   and the South Asian Music Minor, seeks to engage students on
@@ -103,7 +108,7 @@ const About = () => {
                       <h2 className="globalHeading two">
                         Founding Director's Message
                       </h2>
-                      <h3>Yosuf Kerai</h3>
+                      <h3>Yousuf Kerai</h3>
                     </div>
                   </div>
                   <div className="row justify-content-center ">

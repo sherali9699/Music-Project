@@ -15,6 +15,7 @@ function Ev14() {
     <>
       <Helmet>
         <title>Week of Welcome: Musical Evening - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/week-of-welcome-musical-evening-22-sept-2022" />
       </Helmet>
 
       {/* Header */}

@@ -23,6 +23,7 @@ function Ev2() {
     <>
       <Helmet>
         <title>Drum Circle: Welcoming Spring - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/drum-circle-welcoming-spring-17-jan-2019" />
       </Helmet>
 
       {/* Header */}

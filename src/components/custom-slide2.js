@@ -21,7 +21,7 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows:false,
+    // arrows:false,
     nextArrow: showArrows ? <CustomNextArrow /> : null,
     prevArrow: showArrows ? <CustomPrevArrow /> : null,
     autoplay: autoplay,
@@ -59,13 +59,13 @@ const getSliderSettings = ({ showDots, showArrows, autoplay, autoplaySpeed, scro
   
   
 
-  const CustomSlider = ({ showDots, showArrows, autoplay = false, autoplaySpeed, scrollOnSmallScreens = true, children }) => {
+  const CustomSlider2 = ({ showDots, showArrows, autoplay = false, autoplaySpeed, scrollOnSmallScreens = true, children }) => {
     const settings = getSliderSettings({ showDots, showArrows, autoplay, autoplaySpeed, scrollOnSmallScreens });
   
     return <Slider {...settings}>{children}</Slider>;
   };
   
-export default CustomSlider;
+export default CustomSlider2;
   
 
 

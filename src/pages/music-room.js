@@ -11,14 +11,23 @@ import m3 from "..//assets/images/music-room/Intezar-hussain.webp";
 import m4 from "..//assets/images/music-room/Islamuddin.webp";
 import m5 from "..//assets/images/music-room/Shehroze-Hussain.webp";
 import m6 from "..//assets/images/music-room/Zohaib-Hussain.webp";
-import m7 from "..//assets/images/music-room/Late-profile01.webp";
-import m8 from "..//assets/images/music-room/Late-profile02.webp";
+import m7 from "..//assets/images/music-room/Late- profile01.webp";
+import m8 from "..//assets/images/music-room/Late- profile02.webp";
 
 const MusicRoom = () => {
   return (
     <>
       <Helmet>
         <title>MUSIC ROOM - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room" />
+        <meta
+          name="description"
+          content="The Music Room at Habib University provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor."
+        />
+        <meta
+          name="description"
+          content="Comprising dedicated rooms for Sitar, Violin, Tabla and Vocal lessons, the Music Room hosts lessons for over a hundred community members."
+        />
       </Helmet>
 
       <span className="innerPageBlock"></span>
@@ -28,9 +37,9 @@ const MusicRoom = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading">
+                <h1 className="globalHeading">
                   Khuwaja Mashooqullah Music Room
-                </h2>
+                </h1>
                 <p>
                   Khwaja Mashooqullah Music Room came about as a manifestation
                   of the generous donation accorded by the Mashooqullah Family

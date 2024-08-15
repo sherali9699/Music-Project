@@ -23,6 +23,7 @@ function Ev10() {
     <>
       <Helmet>
         <title>Khayal: Imagination in Sound  - Center for South Asian Music</title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/khayal-imagination-in-sound-17-mar-2022" />
       </Helmet>
 
       {/* Header */}

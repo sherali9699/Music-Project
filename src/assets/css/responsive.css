@@ -120,9 +120,13 @@
     font-size: 14px;
   }
 
-  .hoverImgBox {
-    padding: 0 10px;
+  .AcaOffSec.teach-com .hoverImgBox {
+    padding: 0 5px;
   }
+
+  
+
+
 
   .overImgText {
     padding: 0 15px;
@@ -131,10 +135,12 @@
   .abtImagesWrap.mr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0;
   }
 
   .gridviewBox {
     grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
   }
 
   .padSec {
@@ -142,7 +148,7 @@
   }
 
   .globalBtn {
-    padding: 5px 17px;
+    padding: 8px 22px;
   }
 
   .globalHeading.two {
@@ -195,6 +201,35 @@
 
   .padSec.top{
     padding: 20px 0 0;
+  }
+
+
+  .InnerWraperImg:before {
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+  }
+  
+  .InnerWraperImg .overImgText {
+    opacity: 1;
+    bottom: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .AcaOffSec.teach-com .abtImagesWrap{
+    gap: 0;
+}
+
+  .AcaOffSec.teach-com .InnerWraperImg .overImgText{
+   bottom: 5px; 
+  }
+
+  .AcaOffSec.teach-com .overImgText{
+      padding: 0 5px;
+  }
+
+  #spec{
+    font-weight: 500;
   }
 
 }
@@ -332,8 +367,8 @@
 
   .abtImagesWrap.mr {
     grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
 
-    padding-left: 1rem;
   }
 
   .gridviewBox {
@@ -396,4 +431,24 @@
   font-size: 18px;
 }
 
+.InnerWraperImg:before {
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.InnerWraperImg .overImgText {
+  opacity: 1;
+  bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.abtSec.top p{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.globalBtn{
+  padding: 6px 20px;
+}
 }

@@ -20,6 +20,7 @@ function Ev31() {
         <title>
         Bansuri Workshop with Ustad Hanif Khan - Center for South Asian Music 
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/bansuri-workshop-with-ustad-hanif-khan-29-feb-2024" />
       </Helmet>
 
       {/* Header */}

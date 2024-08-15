@@ -21,6 +21,7 @@ function Ev30() {
         <title>
         Khayal Se Ghazal Tak - Center for South Asian Music 
         </title>
+        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/khayal-se-ghazal-tak-27-feb-2024" />
       </Helmet>
 
       {/* Header */}
