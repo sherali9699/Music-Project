@@ -74,7 +74,7 @@ const AcademicOfferings = () => {
                 <img src={img1} alt="Khayal concert event" />
               </div>
               <div className="overImgText">
-                <h3>Yosuf Kerai, M.A.T</h3>
+                <h3>Yousuf Kerai, M.A.T</h3>
                 <h4>Associate Professor of Practice, Comparative Humanities</h4>
               </div>
             </div>
@@ -111,7 +111,7 @@ const AcademicOfferings = () => {
                 <img src={img1} alt="Khayal concert event" />
               </div>
               <div className="overImgText">
-                <h3>Yosuf Kerai, M.A.T</h3>
+                <h3>Yousuf Kerai, M.A.T</h3>
                 <h4>Associate Professor of Practice, Comparative Humanities</h4>
               </div>
             </div>

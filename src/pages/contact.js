@@ -16,7 +16,7 @@ const Contact = () => {
       <section className="AcaOffSec padSec top">
         <div className="container">
           <div className="contact-page">
-            <h2 className="globalHeading contactpage">Reach Out to Us</h2>
+            <h1 className="globalHeading contactpage">Reach Out to Us</h1>
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common ">
@@ -29,10 +29,10 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common">
-                  <h3>Yosuf Kerai - Founding Director</h3>
+                  <h3>Yousuf Kerai - Founding Director</h3>
 
-                  <a href="mailto:Yosuf.kerai@sse.habib.edu.pk">
-                    Yosuf.kerai@sse.habib.edu.pk
+                  <a href="mailto:Yousuf.kerai@sse.habib.edu.pk">
+                    Yousuf.kerai@sse.habib.edu.pk
                   </a>
 
                   <a href="tel:+9221111042424">021 111 042 424 (Ext: 5239)</a>

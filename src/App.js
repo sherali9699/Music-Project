@@ -1,6 +1,6 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // importing components
 import Header from './components/header';
@@ -68,8 +68,8 @@ import './assets/css/responsive.css';
 function App() {
   return (
     <div className="App">
-      {/* <Router basename={'/dev-music'}> */}
-      <BrowserRouter> 
+      <Router basename={'/dev-music'}>
+      {/* <BrowserRouter>  */}
       <ScrollToTop />
         <Header />
         <Routes>
@@ -129,8 +129,8 @@ function App() {
 
         </Routes>
         <Footer />
-      {/* </Router> */}
-      </BrowserRouter>
+      </Router>
+      {/* </BrowserRouter> */}
     </div>
   );
 }

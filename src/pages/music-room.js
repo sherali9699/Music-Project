@@ -19,7 +19,10 @@ const MusicRoom = () => {
     <>
       <Helmet>
         <title>MUSIC ROOM - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room" />
+        <link
+          rel="canonical"
+          href="https://habib.edu.pk/dev-music/music-room"
+        />
         <meta
           name="description"
           content="The Music Room at Habib University provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor."
@@ -141,38 +144,44 @@ const MusicRoom = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="globalHeadingWrap">
-                <h2 className="globalHeading two">Remembring the Great Ustads</h2>
+                <h2 className="globalHeading two">
+                  Remembring the Great Ustads
+                </h2>
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap mr ">
-            <Link to={"/music-room/ustad-khursheed"}>
-              <div className="hoverImgBox">
-                <div className="InnerWraperImg">
-                  <div className="imgWrap">
-                    <img src={m7} alt="Khayal concert event" />
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <ul className="abtImagesWrap mr ">
+                <Link to={"/music-room/ustad-khursheed"}>
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={m7} alt="Khayal concert event" />
+                      </div>
+                      <div className="overImgText">
+                        <h3>Ustad Khurshid Hussain</h3>
+                        <h4>Tabla Instructor</h4>
+                      </div>
+                    </div>
                   </div>
-                  <div className="overImgText">
-                    <h3>Ustad Khurshid Hussain</h3>
-                    <h4>Tabla Instructor</h4>
+                </Link>
+                <Link to={"/music-room/ustad-sajid-hussain"}>
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={m8} alt="Khayal concert event" />
+                      </div>
+                      <div className="overImgText">
+                        <h3>Ustad Sajid Hussain</h3>
+                        <h4>Tabla Instructor</h4>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </Link>
-            <Link to={"/music-room/ustad-sajid-hussain"}>
-              <div className="hoverImgBox">
-                <div className="InnerWraperImg">
-                  <div className="imgWrap">
-                    <img src={m8} alt="Khayal concert event" />
-                  </div>
-                  <div className="overImgText">
-                    <h3>Ustad Sajid Hussain</h3>
-                    <h4>Tabla Instructor</h4>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </ul>
+                </Link>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </>
