@@ -81,7 +81,7 @@ const MusicRoom = () => {
               </div>
             </div>
           </div>
-          <ul className="abtImagesWrap mr">
+          <ul className="abtImagesWrap mr tc">
             <Link to={"/music-room/intezar-hussain-vocal-instructor"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
@@ -139,7 +139,7 @@ const MusicRoom = () => {
       </section>
 
       {/* late instructor */}
-      <section className="AcaOffSec padSec">
+      <section className="AcaOffSec padSec PastUstad">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
@@ -151,7 +151,7 @@ const MusicRoom = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-md-6">
+            <div className="col-md-7">
               <ul className="abtImagesWrap mr ">
                 <Link to={"/music-room/ustad-khursheed"}>
                   <div className="hoverImgBox">
@@ -174,7 +174,7 @@ const MusicRoom = () => {
                       </div>
                       <div className="overImgText">
                         <h3>Ustad Sajid Hussain</h3>
-                        <h4>Tabla Instructor</h4>
+                        <h4>Sitar Instructor</h4>
                       </div>
                     </div>
                   </div>

@@ -228,11 +228,12 @@ const Home = () => {
           <div className="home-event-pics">
             <div className='carous'>
             <CustomSlider2 showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+            
               <Link to={"/events/awards-night-30-may-2024"}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg1} alt="Khayal concert event" />
+                    <img src={eventImg4} alt="Awards Night" />
                   </div>
                   <div className="overImgText">
                     <h3>Awards Night</h3>
@@ -241,11 +242,12 @@ const Home = () => {
                 </div>             
               </div>
               </Link>
+
               <Link to={'/events/echoes-of-tradition-the-art-of-tabla-solo-with-ustad-shahbaz-hussain-07-mar-2024'}>
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg2} alt="Ghazal Kay Rang event" />
+                    <img src={eventImg2} alt="Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain" />
                   </div>
                   <div className="overImgText">
                     <h3>Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain</h3>
@@ -258,7 +260,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg3} alt="Folk music program" />
+                    <img src={eventImg3} alt="The Evolution of Khayal" />
                   </div>
                   <div className="overImgText">
                     <h3>The Evolution of Khayal</h3>
@@ -271,7 +273,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg4} alt="Folk music program" />
+                    <img src={eventImg1} alt="Bansuri Workshop with Ustad Hanif Khan" />
                   </div>
                   <div className="overImgText">
                     <h3>Bansuri Workshop with Ustad Hanif Khan</h3>

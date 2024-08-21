@@ -66,7 +66,7 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common">
-                  <h3>Marya DurkhanWalla - Student Coordinator</h3>
+                  <h3>Marya Darukhanawalla - Student Coordinator</h3>
 
                   <a href="mailto:md07585@st.habib.edu.pk">
                     md07585@st.habib.edu.pk

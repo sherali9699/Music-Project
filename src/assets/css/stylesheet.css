@@ -577,27 +577,63 @@ video {
   border: 2px solid var(--primary);
   border-radius: 10px;
   background-color: white;
-  padding: 0.8rem 1rem;
-  cursor: pointer;
+  /* padding: 0.8rem 1rem; */
+  /* cursor: pointer; */
 }
 
 .academic-common h3 {
-  font-family: var(--heading-family);
-  color: var(--primary);
-  font-size: 24px;
-  font-weight: 700;
-  display: inline-block;
-  margin: 0;
+     font-family: var(--heading-family);
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0;
 }
 
-.academic-common p {
-  margin: 15px 0 0;
+
+.academic-common .tab-content p {
+  margin: 0;
+  padding: 0 1rem 15px;
+}
+.academic-common .tab-content {
+  /* padding-bottom: 15px; */
+}
+
+.academic-common .tab-content ul {
+  margin: -15px 0 15px;
+}
+
+
+.academic-common .tab-content ul li {
+  font-size: 16px;
+  color: var(--secondary);
+  font-weight: 500;
+  text-decoration: none !important;
+  margin: 10px 0;
+  position: relative;
+}
+
+.academic-common .tab-content ul li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.academic-common .tab-content ul li:before {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background-color: var(--primary);
+  left: -16px;
+  transform: rotate(45deg);
+  top: 8px;
 }
 
 .tab-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.8rem 1rem; 
+  cursor: pointer;
 }
 
 #spec {
@@ -607,6 +643,20 @@ video {
   line-height: 20px;
   color: var(--primary);
 }
+/* Add to your CSS file */
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+
+.tab-content.show {
+  max-height: 1000px; /* Adjust as needed */
+  opacity: 1;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
 
 #tab {
   overflow: hidden;
@@ -893,7 +943,12 @@ footer ul li a:hover {
   font-size: 24px;
   color: var(--primary);
 }
-
+ul.abtImagesWrap.mr.tc .hoverImgBox {
+  padding-inline: 0;
+}
+.PastUstad .hoverImgBox {
+  padding-inline: 0;
+}
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------------
   ------------------------------------------------------------Resposive CSS------------------------------------------------------------------------------------------- */
 
