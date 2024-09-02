@@ -70,7 +70,7 @@ const StudentWorks = () => {
                 </div>
                 <div className="overImgText">
                   <h3>Evolution of Sitaar</h3>
-                  <h4>website by Ayiza Rehman</h4>
+                  <h4>Website By Ayiza Rehman</h4>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const StudentWorks = () => {
                 </div>
                 <div className="overImgText">
                   <h3>Representation of SA musical devices</h3>
-                  <h4>by Fariha Kidwai</h4>
+                  <h4>By Fariha Kidwai</h4>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const StudentWorks = () => {
                 </div>
                 <div className="overImgText">
                   <h3>Paper on Gauhar Jaan</h3>
-                  <h4>by Syeda Armeen</h4>
+                  <h4>By Syeda Armeen</h4>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const StudentWorks = () => {
                 </div>
                 <div className="overImgText">
                   <h3>Mosa Space</h3>
-                  <h4>by Abeer Ahmed, Maryam Ahmed & Maham Insha</h4>
+                  <h4>By Abeer Ahmed, Maryam Ahmed & Maham Insha</h4>
                 </div>
               </div>
             </div>

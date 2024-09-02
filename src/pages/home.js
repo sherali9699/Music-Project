@@ -247,7 +247,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg2} alt="Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain" />
+                    <img src={eventImg3} alt="Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain" />
                   </div>
                   <div className="overImgText">
                     <h3>Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain</h3>
@@ -260,7 +260,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg3} alt="The Evolution of Khayal" />
+                    <img src={eventImg2} alt="The Evolution of Khayal" />
                   </div>
                   <div className="overImgText">
                     <h3>The Evolution of Khayal</h3>

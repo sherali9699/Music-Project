@@ -56,7 +56,7 @@ const AcademicOfferings = () => {
                 <div className='hoverImgBox'>
                   <div className='InnerWraperImg'>
                     <div className="imgWrap">
-                      <img src={img2} alt="Khayal concert event" />
+                      <img src={img3} alt="Ustad Shahid Hamid" />
                     </div>
                     <div className="overImgText">
                       <h3>Ustad Shahid Hamid</h3>
@@ -67,7 +67,7 @@ const AcademicOfferings = () => {
                 <div className='hoverImgBox'>
                   <div className='InnerWraperImg'>
                     <div className="imgWrap">
-                      <img src={img1} alt="Khayal concert event" />
+                      <img src={img1} alt="Yousuf Kerai, M.A.T" />
                     </div>
                     <div className="overImgText">
                       <h3>Yousuf Kerai, M.A.T</h3>
@@ -78,7 +78,7 @@ const AcademicOfferings = () => {
                 <div className='hoverImgBox'>
                   <div className='InnerWraperImg'>
                     <div className="imgWrap">
-                      <img src={img3} alt="Khayal concert event" />
+                      <img src={img2} alt="Aaron Molvany, PH.D." />
                     </div>
                     <div className="overImgText">
                       <h3>Aaron Molvany, PH.D.</h3>

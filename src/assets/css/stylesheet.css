@@ -600,7 +600,7 @@ video {
 }
 
 .academic-common .tab-content ul {
-  margin: -15px 0 15px;
+  margin: -15px 0 15px;    padding-left: 2rem;
 }
 
 
@@ -611,6 +611,7 @@ video {
   text-decoration: none !important;
   margin: 10px 0;
   position: relative;
+  line-height: 26px;
 }
 
 .academic-common .tab-content ul li:nth-last-child(1) {
