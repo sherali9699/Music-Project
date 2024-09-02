@@ -21,12 +21,12 @@ function Intizaar() {
           <div className="d-flex justify-content-center">
             <div className="instructor-head">
               <h1 className="globalHeading">Intezar Hussain</h1>
-              <h3>(Vocal Instructor)</h3>
+              <h2>(Vocal Instructor)</h2>
             </div>
           </div>
           <div className="d-flex justify-content-center">
             <div className="instructor-pic">
-              <img src={img} alt="Intizaar" class="image-fluid" />
+            <img src={img} className="image-fluid" alt="Intezar Hussain | Vocal Instructor" width="389" height="389" />
             </div>
           </div>
           <div className="row justify-content-center">

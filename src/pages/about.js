@@ -45,16 +45,7 @@ const About = () => {
             <div className="col-lg-10">
               <div className="globalHeadingWrap">
                 <h1 className="globalHeading">About</h1>
-                <p>
-                  The Center for South Asian Music which houses the Music Room
-                  and the South Asian Music Minor, seeks to engage students on
-                  multiple levels of consciousness, to create a deep symbiosis
-                  between various areas of learning and fields of inquiry. The
-                  Music Room as a space allows for an experiential musical
-                  learning, the South Asian Music Minor builds upon this musical
-                  foundation to serve as a vehicle for interdisciplinary
-                  learning, kinesthetic cultural experience, and for reclaiming
-                  important cultural space.
+                <p>The Center for South Asian Music which houses the Music Room and the South Asian Music Minor, seeks to engage students on multiple levels of consciousness, to create a deep symbiosis between various areas of learning and fields of inquiry. The Music Room as a space allows for an experiential musical learning, the South Asian Music Minor builds upon this musical foundation to serve as a vehicle for interdisciplinary learning, kinesthetic cultural experience, and for reclaiming important cultural space. The Center for South Asian Music at Habib University is the first to offer a robust South Asian Music Minor which lays equal emphasis on understanding historical evolution, scientific and mathematical frameworks, as well as performance skills, with the aim of remedying the cultural vacuum created by depriving the population of their own cultural heritage.
                 </p>
               </div>
             </div>
@@ -62,13 +53,13 @@ const About = () => {
           <div className="home-event-pics">
           {isMobile && (<ul className="abtImagesWrap">
             <li>
-              <img src={abtImg1} alt="Music Room interior" />
+              <img src={abtImg1} alt="Music Room interior" width="618" height="618"  />
             </li>
             <li>
-              <img src={abtImg2} alt="Music Room instruments" />
+              <img src={abtImg2} alt="Music Room instruments" width="618" height="618"  />
             </li>
             <li>
-              <img src={abtImg3} alt="Music Room practice session" />
+              <img src={abtImg3} alt="Music Room practice session" width="618" height="618"  />
             </li>
           </ul>)}
             {!isMobile && (
@@ -76,17 +67,17 @@ const About = () => {
               <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={abtImg1} alt="Khayal concert event" />
+                      <img src={abtImg1} alt="Music Room interior" width="618" height="618"  />
                     </div>                
                 </div>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={abtImg2} alt="Ghazal Kay Rang event" />
+                      <img src={abtImg2} alt="Music Room instruments" width="618" height="618"/>
                     </div>                
                 </div>
                 <div className="hoverImgBox">              
                     <div className="imgWrap">
-                      <img src={abtImg3} alt="Folk music program" />
+                      <img src={abtImg3} alt="Music Room practice session" width="618" height="618"  />
                     </div>              
                 </div>
               </CustomSlider>
@@ -117,14 +108,14 @@ const About = () => {
                       <div className="mess-semi-colon-1 colons">
                           <img
                             src={abtImg6}
-                            alt="image"
+                            alt="quotation mark 1"  width="88" height="69" 
                             className="img-fluid"
                           />
                         </div>
                         <div className="mess-semi-colon-2 colons">
                           <img
                             src={abtimg5}
-                            alt="image"
+                            alt="quotation mark 2"  width="88" height="69" 
                             className="img-fluid"
                           />
                         </div>
@@ -149,7 +140,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="about-keraiPic">
-                  <img src={abtImg4} alt="image" className="img-fluid" />
+                  <img src={abtImg4} alt="Yousuf Kerai" className="img-fluid"  width="183" height="183"/>
                 </div>
               </div>
             </div>

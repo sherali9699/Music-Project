@@ -25,10 +25,6 @@ const MusicRoom = () => {
         />
         <meta
           name="description"
-          content="The Music Room at Habib University provides immersive learning opportunities, complemented by courses that culminate in the pioneering South Asian Music Minor."
-        />
-        <meta
-          name="description"
           content="Comprising dedicated rooms for Sitar, Violin, Tabla and Vocal lessons, the Music Room hosts lessons for over a hundred community members."
         />
       </Helmet>
@@ -62,10 +58,10 @@ const MusicRoom = () => {
           </div>
           <ul className="abtImagesWrap mr">
             <li>
-              <img src={m1} alt="Musical exploration course" />
+              <img src={m1} alt="Musical exploration course"  width="639" height="396"/>
             </li>
             <li>
-              <img src={m2} alt="Interdisciplinary musical study" />
+              <img src={m2} alt="Interdisciplinary musical study"  width="639" height="396"/>
             </li>
           </ul>
         </div>
@@ -86,7 +82,7 @@ const MusicRoom = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={m3} alt="Khayal concert event" />
+                    <img src={m3} alt="Intezar Hussain | Vocal Instructor" width="620" height="750" />
                   </div>
                   <div className="overImgText">
                     <h3>Intezar Hussain</h3>
@@ -99,7 +95,7 @@ const MusicRoom = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={m4} alt="Khayal concert event" />
+                    <img src={m4} alt="Islamuddin Meer | Violin Instructor" width="620" height="750" />
                   </div>
                   <div className="overImgText">
                     <h3>Islamuddin Meer</h3>
@@ -112,7 +108,7 @@ const MusicRoom = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={m5} alt="Khayal concert event" />
+                    <img src={m5} alt="Shehroze Hussain | Sitar Instructor" width="620" height="750" />
                   </div>
                   <div className="overImgText">
                     <h3>Shehroze Hussain</h3>
@@ -125,7 +121,7 @@ const MusicRoom = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={m6} alt="Khayal concert event" />
+                    <img src={m6} alt="Zohaib Hussain | Tabla Instructor" width="620" height="750" />
                   </div>
                   <div className="overImgText">
                     <h3>Zohaib Hussain</h3>
@@ -157,7 +153,7 @@ const MusicRoom = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={m7} alt="Khayal concert event" />
+                        <img src={m7} alt="Ustad Khurshid Hussain | Tabla Instructor" width="620" height="750" />
                       </div>
                       <div className="overImgText">
                         <h3>Ustad Khurshid Hussain</h3>
@@ -170,7 +166,7 @@ const MusicRoom = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={m8} alt="Khayal concert event" />
+                        <img src={m8} alt="Ustad Sajid Hussain | Sitar Instructor" width="620" height="750" />
                       </div>
                       <div className="overImgText">
                         <h3>Ustad Sajid Hussain</h3>

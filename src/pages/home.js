@@ -29,6 +29,7 @@ import eventImg4 from "../assets/images/event-assets/34_Awards Night/Thumnail.jp
 
 
 const Home = () => {
+  const canonicalUrl = window.location.href;
   const [isMobile, setIsMobile] = useState(window.innerWidth > 767);
 
   useEffect(() => {
@@ -48,7 +49,7 @@ const Home = () => {
         <title>
           Center fot South Asian Music - Center for South Asian Music
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/" />
+        <link rel="canonical" href={canonicalUrl} />
       </Helmet>
 
       
@@ -74,13 +75,13 @@ const Home = () => {
           <div className="home-event-pics">
           {isMobile && (<ul className="abtImagesWrap">
             <li>
-              <img src={abtImg1} alt="Music Room interior" />
+              <img src={abtImg1} alt="Music Room interior" width="618" height="618" />
             </li>
             <li>
-              <img src={abtImg2} alt="Music Room instruments" />
+              <img src={abtImg2} alt="Music Room instruments" width="618" height="618" />
             </li>
             <li>
-              <img src={abtImg3} alt="Music Room practice session" />
+              <img src={abtImg3} alt="Music Room practice session" width="618" height="618"  />
             </li>
           </ul>)}
             {!isMobile && (
@@ -88,17 +89,17 @@ const Home = () => {
               <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={abtImg1} alt="Khayal concert event" />
+                      <img src={abtImg1} alt="Music Room interior" width="618" height="618" />
                     </div>                
                 </div>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={abtImg2} alt="Ghazal Kay Rang event" />
+                      <img src={abtImg2} alt="Music Room instruments" width="618" height="618" />
                     </div>                
                 </div>
                 <div className="hoverImgBox">              
                     <div className="imgWrap">
-                      <img src={abtImg3} alt="Folk music program" />
+                      <img src={abtImg3} alt="Music Room practice session" width="618" height="618" />
                     </div>              
                 </div>
               </CustomSlider>
@@ -130,10 +131,10 @@ const Home = () => {
           <div className="home-event-pics">
           {isMobile && (<ul className="abtImagesWrap">
             <li>
-              <img src={academicOfferingsImg1} alt="Music Room interior" />
+              <img src={academicOfferingsImg1} width="1075" height="665" alt="South Asian musical genres to exploring the musical landscape 01" />
             </li>
             <li>
-              <img src={academicOfferingsImg2} alt="Music Room instruments" />
+              <img src={academicOfferingsImg2} width="1075" height="665" alt="South Asian musical genres to exploring the musical landscape 02" />
             </li>
           </ul>)}
             {!isMobile && (
@@ -141,12 +142,12 @@ const Home = () => {
               <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={academicOfferingsImg1} alt="Khayal concert event" />
+                      <img src={academicOfferingsImg1} width="1075" height="665" alt="South Asian musical genres to exploring the musical landscape 01"  />
                     </div>                
                 </div>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={academicOfferingsImg2} alt="Ghazal Kay Rang event" />
+                      <img src={academicOfferingsImg2} width="1075" height="665" alt="South Asian musical genres to exploring the musical landscape 02" />
                     </div>                
                 </div>
               </CustomSlider>
@@ -174,13 +175,13 @@ const Home = () => {
           <div className="home-event-pics">
           {isMobile && (<ul className="abtImagesWrap">
             <li>
-              <img src={mrImg1} alt="Music Room interior" />
+              <img src={mrImg1} alt="Music Room practice session instrument Sitar" width="618" height="618" />
             </li>
             <li>
-              <img src={mrImg2} alt="Music Room instruments" />
+              <img src={mrImg2} alt="Music Room practice session instrument Sitar Student" width="618" height="618" />
             </li>
             <li>
-              <img src={mrImg3} alt="Music Room practice session" />
+              <img src={mrImg3} alt="Music Room practice session instrument Violin student" width="618" height="618" />
             </li>
           </ul>)}
           
@@ -189,17 +190,17 @@ const Home = () => {
               <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={mrImg1} alt="Khayal concert event" />
+                    <img src={mrImg1} alt="Music Room practice session instrument Sitar" width="618" height="618" />
                     </div>                
                 </div>
                 <div className="hoverImgBox">                
                     <div className="imgWrap">
-                      <img src={mrImg2} alt="Ghazal Kay Rang event" />
+                    <img src={mrImg2} alt="Music Room practice session instrument Sitar Student" width="618" height="618" />
                     </div>                
                 </div>
                 <div className="hoverImgBox">              
                     <div className="imgWrap">
-                      <img src={mrImg3} alt="Folk music program" />
+                    <img src={mrImg3} alt="Music Room practice session instrument Violin student" width="618" height="618" />
                     </div>              
                 </div>
               </CustomSlider>
@@ -233,7 +234,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg4} alt="Awards Night" />
+                    <img src={eventImg4} alt="Awards Night"  width="620" height="748"/>
                   </div>
                   <div className="overImgText">
                     <h3>Awards Night</h3>
@@ -247,7 +248,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg3} alt="Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain" />
+                    <img src={eventImg3} width="620" height="748" alt="Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain" />
                   </div>
                   <div className="overImgText">
                     <h3>Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain</h3>
@@ -260,7 +261,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg2} alt="The Evolution of Khayal" />
+                    <img src={eventImg2} width="620" height="748" alt="The Evolution of Khayal" />
                   </div>
                   <div className="overImgText">
                     <h3>The Evolution of Khayal</h3>
@@ -273,7 +274,7 @@ const Home = () => {
               <div className="hoverImgBox">
                 <div className="InnerWraperImg">
                   <div className="imgWrap">
-                    <img src={eventImg1} alt="Bansuri Workshop with Ustad Hanif Khan" />
+                    <img src={eventImg1} width="620" height="748" alt="Bansuri Workshop with Ustad Hanif Khan" />
                   </div>
                   <div className="overImgText">
                     <h3>Bansuri Workshop with Ustad Hanif Khan</h3>

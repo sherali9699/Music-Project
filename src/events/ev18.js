@@ -36,7 +36,7 @@ function Ev18() {
                 <h1 className="globalHeading">
                 Baithak with Ustad Badar uz Zaman
                 </h1>
-                <span className="dateonBanner">Dated: 28/Nov/2022a </span>
+                <span className="dateonBanner">Dated: 28/Nov/2022</span>
               </div>
             </div>
           </div>

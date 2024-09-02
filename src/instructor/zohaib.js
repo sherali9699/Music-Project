@@ -21,12 +21,12 @@ function Zohaib() {
         <div className="d-flex justify-content-center">
           <div className="instructor-head">
             <h1 className="globalHeading">Zohaib Hussain</h1>
-            <h3>(Tabla Instructor)</h3>
+            <h2>(Tabla Instructor)</h2>
           </div>
         </div>
         <div className="d-flex justify-content-center">
           <div className="instructor-pic">
-            <img src={img} alt="Intizaar" class="image-fluid" />
+          <img src={img} className="image-fluid" alt="Zohaib Hussain | Tabla Instructor" width="389" height="389" />
           </div>
         </div>
         <div className="row justify-content-center">

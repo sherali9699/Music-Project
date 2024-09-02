@@ -26,12 +26,13 @@ const StudentWorks = () => {
       </Helmet>
 
     <span className='innerPageBlock'></span>
-    <section className='mrSec padSec top'>
+    <section className='mrSec padSec top studentWorkPage'>
     <div className='container'>
       <div className='row justify-content-center'>
         <div className='col-lg-8'>
           <div className='globalHeadingWrap'>
             <h1 className='globalHeading'>Students' Work</h1>
+            <h2>Students' Work</h2>
           </div>
         </div>
       </div>
@@ -40,7 +41,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im1} alt="Khayal concert event" />
+                  <img src={im1} alt="Lughat-e-Besur | By Anita Zehra" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Lughat-e-Besur</h3>
@@ -53,7 +54,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im2} alt="Khayal concert event" />
+                  <img src={im2} alt="Sarangi: The instrument and the Art | By Aala Masood" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Sarangi: The instrument and the Art</h3>
@@ -66,7 +67,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im3} alt="Khayal concert event" />
+                  <img src={im3} alt="Evolution of Sitaar | Website By Ayiza Rehman" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Evolution of Sitaar</h3>
@@ -79,7 +80,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im4} alt="Khayal concert event" />
+                  <img src={im4} alt="Representation of SA musical devices | By Fariha Kidwai" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Representation of SA musical devices</h3>
@@ -92,7 +93,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im5} alt="Khayal concert event" />
+                  <img src={im5} alt="Paper on Gauhar Jaan | By Syeda Armeen" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Paper on Gauhar Jaan</h3>
@@ -105,7 +106,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im6} alt="Khayal concert event" />
+                  <img src={im6} alt="Composition of a Kalaam | By Shehryar" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                 <h3>Composition of a Kalaam</h3>
@@ -118,7 +119,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im7} alt="Khayal concert event" />
+                  <img src={im7} alt="Taal Tutor | By Owais bin Asad" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Taal Tutor </h3>
@@ -131,7 +132,7 @@ const StudentWorks = () => {
             <div className="hoverImgBox">
               <div className="InnerWraperImg">
                 <div className="imgWrap">
-                  <img src={im8} alt="Khayal concert event" />
+                  <img src={im8} alt="Mosa Space | By Abeer Ahmed, Maryam Ahmed & Maham Insha" width="399" height="482" />
                 </div>
                 <div className="overImgText">
                   <h3>Mosa Space</h3>

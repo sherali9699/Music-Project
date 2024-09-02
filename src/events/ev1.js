@@ -30,7 +30,7 @@ function Ev1() {
             <div className="col-xl-10">
               <div className="bannerHead">
                 <h1 className="globalHeading">Andaaz: The Dance Concert</h1>
-                <span className="dateonBanner">Dated: 30/Jun/2020</span>
+                <span className="dateonBanner">Dated: 30/Nov/2018</span>
               </div>
             </div>
           </div>

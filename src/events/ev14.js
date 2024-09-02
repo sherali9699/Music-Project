@@ -25,7 +25,7 @@ function Ev14() {
             <div className="col-xl-10">
               <div className="bannerHead">
                 <h1 className="globalHeading">Week of Welcome: Musical Evening</h1>
-                <span className="dateonBanner">Dated: 22/Sept/2022x</span>
+                <span className="dateonBanner">Dated: 22/Sept/2022</span>
               </div>
             </div>
           </div>

@@ -53,40 +53,53 @@ const AcademicOfferings = () => {
           <div className="home-event-pics">
             {isMobile && (
               <ul className="abtImagesWrap">
-                <div className='hoverImgBox'>
-                  <div className='InnerWraperImg'>
-                    <div className="imgWrap">
-                      <img src={img3} alt="Ustad Shahid Hamid" />
-                    </div>
-                    <div className="overImgText">
-                      <h3>Ustad Shahid Hamid</h3>
-                      <h4>Visiting Associate Professor of Practice, Comparative Humanities</h4>
-                    </div>
-                  </div>
-                </div>
-                <div className='hoverImgBox'>
-                  <div className='InnerWraperImg'>
-                    <div className="imgWrap">
-                      <img src={img1} alt="Yousuf Kerai, M.A.T" />
-                    </div>
-                    <div className="overImgText">
-                      <h3>Yousuf Kerai, M.A.T</h3>
-                      <h4>Associate Professor of Practice, Comparative Humanities</h4>
+              <li>
+                <a href="https://habib.edu.pk/AHSS/shahid-hamid/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={img3} alt="Ustad Shahid Hamid" width="620" height="750"/>
+                      </div>
+                      <div className="overImgText">
+                        <h3>Ustad Shahid Hamid</h3>
+                        <h4>Visiting Associate Professor of Practice, Comparative Humanities</h4>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className='hoverImgBox'>
-                  <div className='InnerWraperImg'>
-                    <div className="imgWrap">
-                      <img src={img2} alt="Aaron Molvany, PH.D." />
-                    </div>
-                    <div className="overImgText">
-                      <h3>Aaron Molvany, PH.D.</h3>
-                      <h4>Associate Professor, Social Development and Policy</h4>
+                </a>
+              </li>
+              <li>
+                <a href="https://habib.edu.pk/SSE/yousuf-kerai/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={img1} alt="Yousuf Kerai, M.A.T" width="620" height="750"/>
+                      </div>
+                      <div className="overImgText">
+                        <h3>Yousuf Kerai, M.A.T</h3>
+                        <h4>Associate Professor of Practice, Comparative Humanities</h4>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </ul>
+                </a>
+              </li>
+              <li>
+                <a href="https://habib.edu.pk/AHSS/dr-aaron-mulvany/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={img2} alt="Aaron Molvany, PH.D." width="620" height="750"/>
+                      </div>
+                      <div className="overImgText">
+                        <h3>Aaron Molvany, PH.D.</h3>
+                        <h4>Associate Professor, Social Development and Policy</h4>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            
             )}
             {!isMobile && (
               <div className='carous'>
@@ -94,7 +107,7 @@ const AcademicOfferings = () => {
                   <div className='hoverImgBox'>
                     <div className='InnerWraperImg'>
                       <div className="imgWrap">
-                        <img src={img2} alt="Khayal concert event" />
+                        <img src={img3} alt="Ustad Shahid Hamid" width="620" height="750" />
                       </div>
                       <div className="overImgText">
                         <h3>Ustad Shahid Hamid</h3>
@@ -105,7 +118,7 @@ const AcademicOfferings = () => {
                   <div className='hoverImgBox'>
                     <div className='InnerWraperImg'>
                       <div className="imgWrap">
-                        <img src={img1} alt="Khayal concert event" />
+                        <img src={img1} alt="Yousuf Kerai, M.A.T" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
                         <h3>Yousuf Kerai, M.A.T</h3>
@@ -116,7 +129,7 @@ const AcademicOfferings = () => {
                   <div className='hoverImgBox'>
                     <div className='InnerWraperImg'>
                       <div className="imgWrap">
-                        <img src={img3} alt="Khayal concert event" />
+                        <img src={img2} alt="Aaron Molvany, PH.D." width="620" height="750"/>
                       </div>
                       <div className="overImgText">
                         <h3>Aaron Molvany, PH.D.</h3>
@@ -176,12 +189,12 @@ function Academic_Main() {
     {
       title: "Ghazal Gayeki: A cultural legacy of South Asia",
       content:`
-        <p>The Ghazal, a poetic love sonnet in Urdu, is the cultural legacy of South Asia. Before the 13th century the language of poetry was primarily Brij Bhasha and Ameer Khusrau innovated by combining it with Persian. The first established Urdu poet was Wali Deccani who adopted what can be considered Urdu as we know it today. Delhi appeared as an important centre for this language, followed by Lucknow. Even though these literary capitals had their individual styles, the Ghazal reached its zenith in Delhi with Mir Taqi Mir and Mirza Ghalib.Today the Ghazal is also a musical genre, and a number of early Ghazal singers were trained in the Khayal and Thumri style of singing. In the Ghazal, the lyrics are of supreme importance, hence a good command on the language is as essential as the command over the style of singing. The last century was what can be considered as the golden age of Ghazal singing with Begum Akhtar, Ustad Barkat Ali Khan and Mehdi Hasan marking their presence as trendsetters. Today Farida Khanum, Ghulam Ali and Abida Parveen are considered the iconic figures.</p>`,
+      <p>This course will delve deep into the pedagogy of Ghazal singing, introducing students to its history as well as its foundational concepts and praxis. Using contemporary musical framework of Ghazal Gayeki, students will be familiarized with the architecture of Ghazal performance, including the introductory Alaap, selection of poetry, structure of melody, rhythmic pattern, and the proper dialect and pronunciations in Ghazal poetry. We will engage with various stylistic lineages and identify ways in which some stalwarts employ various ornamental techniques to create their characteristic styles. A comparative study of different aesthetic ideals and genres within Ghazal itself, such as Raag-based Ghazal, Thumri Ang Ghazal, Geet style Ghazal and Mujra Ang Ghazal, will orient students in their exploration of true expressions, improvisation and nuances in Ghazal singing.</p>`,
     },
     {
       title: "Thumri ki kahani: Romance in Raag Form",
       content:`
-        <p>Thumri is one of the popular styles of singing in South Asia. It is described as a dance song in the 17th Century treatises like Raag Darpan and Tohfat-ul-Hind. With the passage of time, the dance element faded and now it is mostly presented by way of vocalization. Thumri was patronized by Nawab Wajid Ali Shah, the King of Lucknow who ruled the state of Avadh from 1847 to 1856. Technically speaking, this genre is a pleasant blend of our classical and semi-classical music. Unlike the classical forms of Dhrupad and Khayal, the Thumris are glorified with short amatory texts, mostly found in Brij Basha and its allied dialects like Avadhi, Bhojpuri etc. It has gained popularity due to excessive use of singing techniques like Khataka, Murki and Bol Bant. Here importance is given to eloquence rather than purity of a Raag. That is why Thumri is also known for its variations and experimentation with the structure of Raags. These days a Thumri is usually performed as a last item of the Khayal concert. Since not many Thumri singers are alive today, it is feared that this genre may become scarce soon. Before Thumri becomes completely non-existent, we need to make an endeavor for its revival by educating the present generation.</p>`,
+        <p>This course will develop a student into a good listener and performer (if having vocal ability) in accordance with his/her own capacity and aspiration. It will introduce students to the Thumri genre, tracing its foundational concepts and development into a refined form of singing. Using contemporary musical framework of Thumri singing, students will be familiarized with the architecture of Thumri performance, including its evolution, lyrical themes, flexible melodic structure, rhythmic pattern and the art of Bol Bant (lyrical allocation according to rhythmic cycles). We will remain engaged with various stylistic lineages of some of the stalwarts by decoding the musical language and understanding their unique characteristic styles. A comparative study of different aesthetic ideals and genres within and around the Thumri, such as Dadra and Ghazal, will orient students in their exploration of true expressions, and improvisation in Thumri singing. By the end of the course, students will not only be able to appreciate a wide range of Thumris sung in Raags such as Pahadi, Khamaj, Des, Piloo, Bhairvi and Sohni but also to create an impressive repertoire of their own.</p>`,
     },
     {
       title: "Khayal Gayeki: The Aesthetics and Evolution of a Vocal Form",

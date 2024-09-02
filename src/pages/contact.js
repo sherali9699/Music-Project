@@ -20,7 +20,7 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common ">
-                  <h3>Center for South Asian Music</h3>
+                  <h2>Center for South Asian Music</h2>
 
                   <a href="mailto:music@habib.edu.pk">music@habib.edu.pk</a>
                 </div>
@@ -29,7 +29,7 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common">
-                  <h3>Yousuf Kerai - Founding Director</h3>
+                  <h2>Yousuf Kerai - Founding Director</h2>
 
                   <a href="mailto:Yousuf.kerai@sse.habib.edu.pk">
                     Yousuf.kerai@sse.habib.edu.pk
@@ -42,7 +42,7 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common">
-                  <h3>Chandu Lal - Music Room Manager</h3>
+                  <h2>Chandu Lal - Music Room Manager</h2>
 
                   <a href="mailto:Chandu.lal@habib.edu.pk">
                     Chandu.lal@habib.edu.pk
@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common ">
-                  <h3>Syed Muhammad Kumail Ali Jaffry - Coordinator</h3>
+                  <h2>Syed Muhammad Kumail Ali Jaffry - Coordinator</h2>
 
                   <a href="mailto:kumail.jaffry@habib.edu.pk">
                     kumail.jaffry@habib.edu.pk
@@ -66,7 +66,7 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common">
-                  <h3>Marya Darukhanawalla - Student Coordinator</h3>
+                  <h2>Marya Darukhanawalla - Student Coordinator</h2>
 
                   <a href="mailto:md07585@st.habib.edu.pk">
                     md07585@st.habib.edu.pk

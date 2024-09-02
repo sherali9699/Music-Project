@@ -17,12 +17,12 @@ import StudentWorks from './pages/student-works';
 import Contact from './pages/contact';
 
 // importing instructor pages 
-import Intizaar from './pages/intezaar';
-import Sajid from './pages/sajjid';
-import Khurshid from './pages/khurshid';
-import Islam from './pages/islamuddin';
-import Shehroz from './pages/shehroz';
-import Zohaib from './pages/zohaib';
+import Intizaar from './instructor/intezaar';
+import Sajid from './instructor/sajjid';
+import Khurshid from './instructor/khurshid';
+import Islam from './instructor/islamuddin';
+import Shehroz from './instructor/shehroz';
+import Zohaib from './instructor/zohaib';
 
 // importing events pages
 import Ev1 from './events/ev1';
