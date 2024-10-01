@@ -175,6 +175,8 @@ footer ul li a:hover{border:2.5px solid var(--primary);color:rgba(119,93,43,0.5)
 ul.abtImagesWrap.mr.tc .hoverImgBox{padding-inline:0;}
 .PastUstad .hoverImgBox{padding-inline:0;}
 .studentWorkPage .globalHeadingWrap h2{opacity:0;visibility:hidden;margin:0;font-size:0;padding:0;}
-
+.AcaOffSec.teach-com.padSec .home-event-pics {
+    padding-bottom: 50px;
+}
 /* -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------Resposive CSS------------------------------------------------------------------------------------------- */

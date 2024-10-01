@@ -5,10 +5,16 @@ import { Helmet } from 'react-helmet';
 import img1 from '../assets/images/acaOffering/profile01.webp';
 import img2 from '../assets/images/acaOffering/Profile02.webp';
 import img3 from '../assets/images/acaOffering/Profile03.webp';
+import imgAlex from '../assets/images/acaOffering/alex-kreger.webp';
+import imgArsalan from '../assets/images/acaOffering/arsalan.webp';
+import imgDaniyal from '../assets/images/acaOffering/daniyal.webp';
+import imgNighat from '../assets/images/acaOffering/nighat.webp';
+import imgXiaoxi from '../assets/images/acaOffering/xiaoxi.webp';
 
 // Import components
 // import TabContent from '../components/AcaoffTabs';
 import CustomSlider from '../components/custom-slider';
+import CustomSlider2 from '../components/custom-slide2';
 
 const AcademicOfferings = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth > 767);
@@ -51,9 +57,10 @@ const AcademicOfferings = () => {
             </div>
           </div>
           <div className="home-event-pics">
-            {isMobile && (
-              <ul className="abtImagesWrap">
-              <li>
+            
+              {/* <ul className="abtImagesWrap"> */}
+              <CustomSlider2 showDots={false} showArrows={true} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
+            
                 <a href="https://habib.edu.pk/AHSS/shahid-hamid/" target="_blank" rel="noopener noreferrer">
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
@@ -67,8 +74,7 @@ const AcademicOfferings = () => {
                     </div>
                   </div>
                 </a>
-              </li>
-              <li>
+             
                 <a href="https://habib.edu.pk/SSE/yousuf-kerai/" target="_blank" rel="noopener noreferrer">
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
@@ -82,8 +88,7 @@ const AcademicOfferings = () => {
                     </div>
                   </div>
                 </a>
-              </li>
-              <li>
+              
                 <a href="https://habib.edu.pk/AHSS/dr-aaron-mulvany/" target="_blank" rel="noopener noreferrer">
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
@@ -97,49 +102,80 @@ const AcademicOfferings = () => {
                     </div>
                   </div>
                 </a>
-              </li>
-            </ul>
-            
-            )}
-            {!isMobile && (
-              <div className='carous'>
-                <CustomSlider showDots={true} showArrows={false} autoplay={true} autoplaySpeed={5000} scrollOnSmallScreens={true}>
-                  <div className='hoverImgBox'>
-                    <div className='InnerWraperImg'>
+
+                <a href="https://habib.edu.pk/AHSS/alexander-kreger-ph-d/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={img3} alt="Ustad Shahid Hamid" width="620" height="750" />
+                        <img src={imgAlex} alt="Alex Kreger Ph.D. - Global Fellow " width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Ustad Shahid Hamid</h3>
-                        <h4>Visiting Associate Professor of Practice, Comparative Humanities</h4>
+                        <h3>Alex Kreger Ph.D. - Global Fellow </h3>
+                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
                       </div>
                     </div>
                   </div>
-                  <div className='hoverImgBox'>
-                    <div className='InnerWraperImg'>
+                </a>
+
+                <a href="https://habib.edu.pk/AHSS/nighat-chaudhry/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={img1} alt="Yousuf Kerai, M.A.T" width="620" height="750"/>
+                        <img src={imgNighat} alt="Nighat Chaudhry M.S - Professor of Practice" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Yousuf Kerai, M.A.T</h3>
-                        <h4>Associate Professor of Practice, Comparative Humanities</h4>
+                        <h3>Nighat Chaudhry M.S - Professor of Practice</h3>
+                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
                       </div>
                     </div>
                   </div>
-                  <div className='hoverImgBox'>
-                    <div className='InnerWraperImg'>
+                </a>
+
+                <a href="https://habib.edu.pk/AHSS/xiaoxi-zhang-ph-d/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={img2} alt="Aaron Molvany, PH.D." width="620" height="750"/>
+                        <img src={imgXiaoxi} alt="Xiaoxi Zhang Ph.D. - Global Fellow" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Aaron Molvany, PH.D.</h3>
-                        <h4>Associate Professor, Social Development and Policy</h4>
+                        <h3>Xiaoxi Zhang Ph.D. - Global Fellow</h3>
+                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
                       </div>
                     </div>
                   </div>
-                </CustomSlider>
-              </div>
-            )}
+                </a>
+
+                <a href="https://habib.edu.pk/AHSS/arsalan-pareyal-m-s/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={imgArsalan} alt="Arsalan Pareyal M.S - Assistant Professor of Practice " width="620" height="750"/>
+                      </div>
+                      <div className="overImgText">
+                        <h3>Arsalan Pareyal M.S - Assistant Professor of Practice </h3>
+                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="https://habib.edu.pk/AHSS/daniyal-ahmed/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={imgDaniyal} alt="Daniyal Ahmed M.A. - Affiliated Assistant Professor of Practice" width="620" height="750"/>
+                      </div>
+                      <div className="overImgText">
+                        <h3>Daniyal Ahmed M.A. - Affiliated Assistant Professor of Practice</h3>
+                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </CustomSlider2>
+            {/* </ul> */}
+           
           </div>
         </div>
       </section>
