@@ -10,6 +10,7 @@ import imgArsalan from '../assets/images/acaOffering/arsalan.webp';
 import imgDaniyal from '../assets/images/acaOffering/daniyal.webp';
 import imgNighat from '../assets/images/acaOffering/nighat.webp';
 import imgXiaoxi from '../assets/images/acaOffering/xiaoxi.webp';
+import imgKabir from '../assets/images/acaOffering/kabir.webp';
 
 // Import components
 // import TabContent from '../components/AcaoffTabs';
@@ -107,11 +108,11 @@ const AcademicOfferings = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={imgAlex} alt="Alex Kreger Ph.D. - Global Fellow " width="620" height="750"/>
+                        <img src={imgAlex} alt="Alex Kreger" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Alex Kreger Ph.D. - Global Fellow </h3>
-                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                        <h3>Alex Kreger Ph.D.</h3>
+                        <h4>Global Fellow</h4>
                       </div>
                     </div>
                   </div>
@@ -121,11 +122,11 @@ const AcademicOfferings = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={imgNighat} alt="Nighat Chaudhry M.S - Professor of Practice" width="620" height="750"/>
+                        <img src={imgNighat} alt="Nighat Chaudhry" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Nighat Chaudhry M.S - Professor of Practice</h3>
-                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                        <h3>Nighat Chaudhry M.S</h3>
+                        <h4>Professor of Practice</h4>
                       </div>
                     </div>
                   </div>
@@ -135,11 +136,11 @@ const AcademicOfferings = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={imgXiaoxi} alt="Xiaoxi Zhang Ph.D. - Global Fellow" width="620" height="750"/>
+                        <img src={imgXiaoxi} alt="Xiaoxi Zhang" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Xiaoxi Zhang Ph.D. - Global Fellow</h3>
-                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                        <h3>Xiaoxi Zhang Ph.D.</h3>
+                        <h4>Global Fellow</h4>
                       </div>
                     </div>
                   </div>
@@ -149,11 +150,11 @@ const AcademicOfferings = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={imgArsalan} alt="Arsalan Pareyal M.S - Assistant Professor of Practice " width="620" height="750"/>
+                        <img src={imgArsalan} alt="Arsalan Pareyal" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Arsalan Pareyal M.S - Assistant Professor of Practice </h3>
-                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                        <h3>Arsalan Pareyal M.S </h3>
+                        <h4>Assistant Professor of Practice</h4>
                       </div>
                     </div>
                   </div>
@@ -163,11 +164,25 @@ const AcademicOfferings = () => {
                   <div className="hoverImgBox">
                     <div className="InnerWraperImg">
                       <div className="imgWrap">
-                        <img src={imgDaniyal} alt="Daniyal Ahmed M.A. - Affiliated Assistant Professor of Practice" width="620" height="750"/>
+                        <img src={imgDaniyal} alt="Daniyal Ahmed" width="620" height="750"/>
                       </div>
                       <div className="overImgText">
-                        <h3>Daniyal Ahmed M.A. - Affiliated Assistant Professor of Practice</h3>
-                        {/* <h4>Associate Professor, Social Development and Policy</h4> */}
+                        <h3>Daniyal Ahmed M.A. </h3>
+                        <h4>Affiliated Assistant Professor of Practice</h4>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="https://habib.edu.pk/AHSS/kabir-altaf-m-s/" target="_blank" rel="noopener noreferrer">
+                  <div className="hoverImgBox">
+                    <div className="InnerWraperImg">
+                      <div className="imgWrap">
+                        <img src={imgKabir} alt="Kabir Altaf" width="620" height="750"/>
+                      </div>
+                      <div className="overImgText">
+                        <h3>Kabir Altaf M.S </h3>
+                        <h4>Assistant Professor of Practice</h4>
                       </div>
                     </div>
                   </div>

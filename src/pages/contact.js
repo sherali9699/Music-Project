@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="row justify-content-center">
+            {/* <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common ">
                   <h2>Syed Muhammad Kumail Ali Jaffry - Coordinator</h2>
@@ -62,7 +62,7 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="contact-common">
