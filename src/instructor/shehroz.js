@@ -12,7 +12,7 @@ function Shehroz() {
     <>
           <Helmet>
         <title>Shehroze Hussain - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room/shehroze-hussain-sitar-instructor" />
+        <link rel="canonical" href="https://habib.edu.pk/music/music-room/shehroze-hussain-sitar-instructor" />
       </Helmet>
     <span className='innerPageBlock'></span>
     <section className="AcaOffSec padSec top">

@@ -21,7 +21,7 @@ function Ev24() {
         <title>
         Awards Night - Center for South Asian Music 
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/awards-night-25-may-2023" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/awards-night-25-may-2023" />
       </Helmet>
 
       {/* Header */}

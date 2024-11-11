@@ -31,7 +31,7 @@ const About = () => {
     <>
       <Helmet>
         <title>About Us - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/about" />
+        <link rel="canonical" href="https://habib.edu.pk/music/about" />
         <meta
           name="description"
           content="Dive into the historical, mathematical, and performance dimensions, as we strive to revive cultural heritage and nurture interdisciplinary understanding."

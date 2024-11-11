@@ -35,7 +35,7 @@ const AcademicOfferings = () => {
     <>
       <Helmet>
         <title>ACADEMIC OFFERINGS - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/academic-offerings" />
+        <link rel="canonical" href="https://habib.edu.pk/music/academic-offerings" />
         <meta
           name="description"
           content="Embark on a journey of musical exploration and academic inquiry with our diverse array of courses led by esteemed instructors."

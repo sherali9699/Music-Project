@@ -23,7 +23,7 @@ function Ev16() {
         Ghazal Kay Rang - Center for South
           Asian Music
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/ghazal-kay-rang-11-oct-2022" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/ghazal-kay-rang-11-oct-2022" />
       </Helmet>
 
       {/* Header */}

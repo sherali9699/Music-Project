@@ -13,7 +13,7 @@ function Khurshid() {
     <>
           <Helmet>
         <title>Ustad Khurshid Hussain - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room/ustad-khursheed" />
+        <link rel="canonical" href="https://habib.edu.pk/music/music-room/ustad-khursheed" />
       </Helmet>
     <span className='innerPageBlock'></span>
     <section className="AcaOffSec padSec top">

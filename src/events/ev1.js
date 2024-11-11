@@ -18,7 +18,7 @@ function Ev1() {
     <>
       <Helmet>
         <title>Andaaz: The Dance Concert - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/andaaz-the-dance-concert-30-nov-2018" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/andaaz-the-dance-concert-30-nov-2018" />
       </Helmet>
 
       {/* Header */}

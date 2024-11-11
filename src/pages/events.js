@@ -263,7 +263,7 @@ const Events = () => {
     <>
       <Helmet>
         <title>Events - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events" />
       </Helmet>
 
       <span className="innerPageBlock"></span>

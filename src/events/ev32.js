@@ -17,7 +17,7 @@ function Ev32() {
         <title>
         The Evolution of Khayal - Center for South Asian Music 
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/the-evolution-of-khayal-05-mar-2024" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/the-evolution-of-khayal-05-mar-2024" />
       </Helmet>
 
       {/* Header */}

@@ -16,7 +16,7 @@ function Ev29() {
         <title>
         Khayal: Imagination in Sound - Center for South Asian Music 
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/khayal-imagination-in-sound-13-feb-2024" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/khayal-imagination-in-sound-13-feb-2024" />
       </Helmet>
 
       {/* Header */}

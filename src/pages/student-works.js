@@ -18,7 +18,7 @@ const StudentWorks = () => {
     <>
       <Helmet>
         <title>Student Works - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/student-works" />
+        <link rel="canonical" href="https://habib.edu.pk/music/student-works" />
         <meta
           name="description"
           content="CDiscover innovative music projects by students at Habib University. See how young talents are pushing the boundaries of creativity and sound."

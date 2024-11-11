@@ -12,7 +12,7 @@ function Sajid() {
     <>
           <Helmet>
         <title>Ustad Sajid Hussain - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room/ustad-sajid-hussain" />
+        <link rel="canonical" href="https://habib.edu.pk/music/music-room/ustad-sajid-hussain" />
       </Helmet>
     <span className='innerPageBlock'></span>
     <section className="AcaOffSec padSec top">

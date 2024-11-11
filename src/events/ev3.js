@@ -22,7 +22,7 @@ function Ev3() {
     <>
       <Helmet>
         <title>Raag Time - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/raag-time-05-mar-2019" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/raag-time-05-mar-2019" />
       </Helmet>
 
       {/* Header */}

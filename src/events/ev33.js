@@ -22,7 +22,7 @@ function Ev33() {
         <title>
         Echoes of Tradition: The Art of Tabla Solo with Ustad Shahbaz Hussain - Center for South Asian Music 
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/echoes-of-tradition-the-art-of-tabla-solo-with-ustad-shahbaz-hussain-07-mar-2024" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/echoes-of-tradition-the-art-of-tabla-solo-with-ustad-shahbaz-hussain-07-mar-2024" />
       </Helmet>
 
       {/* Header */}

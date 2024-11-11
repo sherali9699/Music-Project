@@ -12,7 +12,7 @@ function Islam() {
     <>
       <Helmet>
         <title>Islamuddin Mir - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room/islam-uddin-mir" />
+        <link rel="canonical" href="https://habib.edu.pk/music/music-room/islam-uddin-mir" />
       </Helmet>   
 
     <span className='innerPageBlock'></span>

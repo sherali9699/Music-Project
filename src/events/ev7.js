@@ -21,7 +21,7 @@ function Ev7() {
     <>
       <Helmet>
         <title>Khayal: Imagination in Sound  - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/khayal-imagination-in-sound-16-nov-2021" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/khayal-imagination-in-sound-16-nov-2021" />
       </Helmet>
 
       {/* Header */}

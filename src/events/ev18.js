@@ -21,7 +21,7 @@ function Ev18() {
         <title>
         Baithak with Ustad Badar uz Zaman - Center for South Asian Music
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/baithak-with-ustad-badar-uz-zaman-28-nov-2022" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/baithak-with-ustad-badar-uz-zaman-28-nov-2022" />
       </Helmet>
 
       {/* Header */}

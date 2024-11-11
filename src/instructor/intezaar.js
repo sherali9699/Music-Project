@@ -12,7 +12,7 @@ function Intizaar() {
     <>
       <Helmet>
         <title>Intezar Hussain - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/music-room/intezar-hussain-vocal-instructor" />
+        <link rel="canonical" href="https://habib.edu.pk/music/music-room/intezar-hussain-vocal-instructor" />
       </Helmet>
 
       <span className="innerPageBlock"></span>

@@ -20,7 +20,7 @@ function Ev25() {
         <title>
         Karoonjhar Mountains: World Heritage Site or Granite Reserve - Center for South Asian Music 
         </title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/karoonjhar-mountains-world-heritage-site-or-granite-reserve-19-oct-2023" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/karoonjhar-mountains-world-heritage-site-or-granite-reserve-19-oct-2023" />
       </Helmet>
 
       {/* Header */}

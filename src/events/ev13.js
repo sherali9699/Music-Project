@@ -23,7 +23,7 @@ function Ev13() {
     <>
       <Helmet>
         <title>The Science of Tabla Sound, A Talk by Dr. Abdullah Khalid - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/the-science-of-tabla-sound-a-talk-by-dr-abdullah-khalid-09-june-2022" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/the-science-of-tabla-sound-a-talk-by-dr-abdullah-khalid-09-june-2022" />
       </Helmet>
 
       {/* Header */}

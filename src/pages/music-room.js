@@ -21,7 +21,7 @@ const MusicRoom = () => {
         <title>MUSIC ROOM - Center for South Asian Music</title>
         <link
           rel="canonical"
-          href="https://habib.edu.pk/dev-music/music-room"
+          href="https://habib.edu.pk/music/music-room"
         />
         <meta
           name="description"

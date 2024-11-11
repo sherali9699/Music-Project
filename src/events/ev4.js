@@ -21,7 +21,7 @@ function Ev4() {
     <>
       <Helmet>
         <title>Awards Night  - Center for South Asian Music</title>
-        <link rel="canonical" href="https://habib.edu.pk/dev-music/events/awards-night-14-june-2019" />
+        <link rel="canonical" href="https://habib.edu.pk/music/events/awards-night-14-june-2019" />
       </Helmet>
 
       {/* Header */}

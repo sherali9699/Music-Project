@@ -68,7 +68,7 @@ import './assets/css/responsive.css';
 function App() {
   return (
     <div className="App">
-      <Router basename={'/dev-music'}>
+      <Router basename={'/music'}>
       {/* <BrowserRouter>  */}
       <ScrollToTop />
         <Header />
